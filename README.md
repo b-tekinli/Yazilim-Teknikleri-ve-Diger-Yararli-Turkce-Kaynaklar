@@ -1,2 +1,2 @@
-# Yaz-l-m-Teknikleri-ve-Di-er-Yararl-T-rk-e-Kaynaklar
+# Yazılım Teknikleri ve Diğer Yararlı Türkçe Kaynaklar
 Software techniques and other useful Turkish resources 
