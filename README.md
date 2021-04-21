@@ -151,12 +151,12 @@ Yazılım tarafında örnek verecek olursak her class’ın tek bir tane sorumlu
 
 2. Open Closed Principle:
 
-	Bir yazılımda yeni bir özellik talep edildiğinde mevcut kodların değiştirilmeden yeni özelliğin geliştirilebiliyor olması gerekmektedir.
+-	Bir yazılımda yeni bir özellik talep edildiğinde mevcut kodların değiştirilmeden yeni özelliğin geliştirilebiliyor olması gerekmektedir.
 
-	Yeni özellik, geliştirme istediğinde yazılımımız bize direnç göstermemelidir.
+-	Yeni özellik, geliştirme istediğinde yazılımımız bize direnç göstermemelidir.
 
 
-	Yazılım değiştirilmeye kapalı, geliştirilmeye açık olmalıdır.
+-	Yazılım değiştirilmeye kapalı, geliştirilmeye açık olmalıdır.
 
 Örnek: Bilgisayarımızda ram yetersiz olduğunda bilgisayarın hiçbir yerini bozmadan işlemci ya da klavye gibi farklı yerlerine dokunmadan sadece ram takılan kısma gelip ekleyebiliyoruz. 
 
