@@ -1,16 +1,15 @@
 # Yazılım Teknikleri ve Diğer Yararlı Türkçe Kaynaklar
 Software techniques and other useful Turkish resources 
 
-- WPF Uygulamaları <br />
-
-- SOLID Prensipleri <br />
-
+- CRUD Fonksiyonları <br />
 - Nesne Tabanlı Programlama <br />
+- SOLID Prensipleri <br />
+- WPF Uygulamaları Notları ve Tool Kısaltmaları
 
-- CRUD Fonksiyonları
 
 <br />
 <br />
+
 
 ## [CRUD FONKSİYONLARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/CRUD%20Fonksiyonlar%C4%B1.docx)
 
