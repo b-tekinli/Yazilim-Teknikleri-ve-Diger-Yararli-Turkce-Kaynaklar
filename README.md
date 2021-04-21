@@ -17,6 +17,9 @@ Software techniques and other useful Turkish resources
 Veritabanı Kayıt (Ekleme, Okuma, Güncelleme ve Silme) İşlemleri
 
 
+![crud](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/crud.jpg)
+
+
 o	Programlamada oluşturma, okuma, güncelleme ve silme, veri depolamada kullanılan dört temel fonksiyondur. Terim ilk kez James Martin'in 1983 tarihli kitabı Managing the Data-base Environment'ta kullanılmıştır.
 
 
