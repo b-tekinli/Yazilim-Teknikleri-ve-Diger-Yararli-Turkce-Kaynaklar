@@ -11,7 +11,6 @@ Software techniques and other useful Turkish resources
 
 <br />
 <br />
-<br />
 
 ## [CRUD FONKSİYONLARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/CRUD%20Fonksiyonlar%C4%B1.docx)
 
@@ -37,7 +36,7 @@ Bir programlama dili veya uygulama CRUD ifadesi ile birlikte anılıyorsa uygula
 
 ## [OOP - NESNE TABANLI PROGRAMLAMA - OBJECT ORİENTED PROGRAMMİNG](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/OOP.docx)
 
-![oop](https://miro.medium.com/max/1202/1*yox45V3KzQM6AAOKJF8zwQ.jpeg)
+![oop](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/oop.png?raw=true)
 
  	Gerçek dünyadaki nesnelerin tasarımı sınıf içinde yapılır.
 
@@ -98,13 +97,11 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 
 <br />
 <br />
-<br />
-
 
 
 ## [SOLID PRENSİPLERİ - SOLID PRINCIPLE ](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/SOLID%20Prensipleri.docx)
 
-![solid](https://i2.wp.com/www.muratoner.net/wp-content/uploads/2020/06/1_XOMTPWTpDLypkp079p9XXg.png?fit=1191%2C842&ssl=1)
+![solid](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/solid.png)
 
 Robert C. Martin (Uncle Bob)
 
@@ -135,7 +132,7 @@ Robert C. Martin (Uncle Bob)
 
 Örnek: Bir restoranda tüm işi tek bir kişi yapsaydı nasıl olurdu? Garsonluk, temizlik, yemekler ve bir de hesaba bakmak var tabii. Görseldeki örnek gibi her şey çok karışırdı değil mi? Peki o restoranda çalışan birçok kişi olsa ve herkesin farklı görevleri olup herkes kendi işini yapsa? İşte Single Responsibility Principle (Tek Sorumluluk İlkesi) de bu şekildedir.
  
-![single responsibility](https://devnot.com/wp-content/uploads/2016/11/single-responsibility-princ.jpg)
+![single responsibility](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/singleResponsibility.png)
 
 Yazılım tarafında örnek verecek olursak her class’ın tek bir tane sorumluluğu olmalıdır diyebiliriz. Product sınıfında product dışında hiçbir class özelliği olmamalıdır. Özetle, SOLID Prensiplerinin S’si her class tek bir sorumluluktan ibaret olmalıdır diyor.
 
@@ -153,7 +150,7 @@ Görselde de gördüğünüz gibi kodlarımızın tamamı dikdörtgen ve kareden
 
 Fakat diğer yandan kodlarımız ortadaki kareden oluşuyor olsa ve onu Open Closed İlkesine göre yapmamış olsak bir özellik çıkartmak istediğimizde karenin 4 köşesinden de kesmemiz gerekir ki daire şeklini ancak alabilsin..
 
-![open closed](https://lh3.googleusercontent.com/Phxfd-uNa9wjtb7KFVF3YpcxLMpibnkOTXnJPZtfumARZr1IGkytIip4ajHYIvRcv3YNpd0=s155)
+![open closed](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/openClosed.png)
 
 Yazılım tarafında da olay aynen bu şekilde olmalıdır. Yaptığımız programa yeni bir özellik ekleyeceğimiz zaman kodlarımızın hiçbir yerine dokunmadan o özelliği pıt pıt entegre edebiliyor olmalıyız.
 
@@ -168,6 +165,8 @@ Yazılım tarafında da olay aynen bu şekilde olmalıdır. Yaptığımız progr
 
 Örnek: Yukarıda son paragrafta kalın ve italik yazdığım cümleyi tekrar okumanızı rica edip görselden örnek verecek olursak şöyle açıklayabiliriz: Canlı ve oyuncak ördeğin tabii ki yapabildikleri bazı şeyler kısıtlıdır. Bir metodumuz olduğunu düşünün bu metotta yüzmek, ses çıkartmak ve uçmak olsun. Her 2 ördek ses çıkartabilir oyuncak ördeğe bastığımızda ses çıkartacaktır. 2 ördek de yüzebilir oyuncak ördeği su üzerine koyduğumuzda suyun dibine çökmeyecektir. Fakat uçma konusunda oyuncak olan doğal olarak uçamayacaktır.
 Dolayısıyla yazılım kısmında da sırf 2 ördek birbirine benziyor diye miras aldığımız zaman oyuncak ördeğin uçma fonksiyonu bize hata fırlatacaktır ya da çalışmayacak, boş kalacaktır.
+
+![liskov substitution](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/liskovSubstitution.png)
  
 4. Interface Segregation Principle:
 
@@ -180,6 +179,8 @@ Dolayısıyla yazılım kısmında da sırf 2 ördek birbirine benziyor diye mir
 Örnek: Düşünün ki bir araba üreticisisiniz. Arabanıza default (varsayılan) olarak gaza bas, frene bas ve müzik çalar gibi özellikler vereceksiniz. Bu özellikleri bir arayüzde topladınız ve Audi marka bir arabaya implement ettiniz.
 Fakat daha düşük model bir araba olan Murat 131’ e de bu arayüzü implement etseniz o arabada müzik çalar özelliği olmadığından müzik çalar kısmına gereksiz, boş düğmeler eklemek zorunda kalırsınız. Yani interfaceler içerisine yazılan şeyleri zorunlu hale getirdiği için bu özelliği desteklemeyen bir arabaya müzik çaları default olarak koymak zorunda olursunuz. Bu durumda Audi’yi ayrı Murat131’i ayrı implement etmeniz gerekli. Ortak olan özellikleri aynı arayüzde ortak olmayanları ise ayrı arayüzlere böl, parçala…
 Kısacası, SOLID Prensiplerinin I’sı senin bir özelliğin ortak değilse sen de bu ortak olmayan özelliği ayrıştır diyor.
+
+![interface segregation](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/interfaceSegregation.png)
  
 5. Dependency Inversion Principle:
 
@@ -195,11 +196,10 @@ Cevap:  Yüksek seviye ve düşük seviye sınıflar arasında bir soyutlama kat
 Üst Seviye Sınıflar -> Soyutlama Katmanı -> Düşük Seviye Sınıfları
 Örnek: Mobilyaları zemine sabitlenmiş bir ev olduğunu düşünün hiçbir eşyasını yerinden dahi oynatamadığınız bir ev ne kadar mantıklı olabilir ki? Burada tasarımsal bir problemin olduğu aşikâr. Bir örnek daha vermek gerekirse; evinizdeki ampul patladığında koskoca elektrik tesisatını değiştirdiğinizi düşünün. Yani büyük modül (elektrik tesisatı) küçük modüle (ampul) bağlı olmamalı her ikisi de soyut kavrama (lamba –duy ve ampul-) bağlı olmalı. Üstelik burada, ampulün kaç Watt olduğu (detay), lambanın duy kısmını (soyut) ilgilendirir mi?
 
- 
+ ![dependency inversion](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/dependencyInversion.png)
 
 Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapıyı kullanan fakat birden fazla arayüze (web, mobile gibi) sahip olan birçok uygulama var. Burada da altyapı üzerinde çalışan ve iş süreçlerini yöneten katman bizim “yüksek seviye” modülümüzdür. Bu açıdan bakıldığında kullanıcı arayüzünün düşük seviye olduğunu söylememiz mümkün.
 
-<br />
 <br />
 <br />
 
@@ -210,13 +210,11 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
 
 <br />
 <br />
-<br />
 
 ## KISS (Keep it Simple Stupid)
  	Basit ve aptalca tutun anlamına gelir.
  	Basitlik için çabalamayı öneren bir prensiptir.
 
-<br />
 <br />
 <br />
 
