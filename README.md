@@ -4,6 +4,7 @@ Software techniques and other useful Turkish resources
 - CRUD Fonksiyonları <br />
 - Nesne Tabanlı Programlama <br />
 - SOLID Prensipleri <br />
+- DRY, KISS ve YAGNI Prensipleri
 - WPF Uygulamaları Notları ve Tool Kısaltmaları
 
 
