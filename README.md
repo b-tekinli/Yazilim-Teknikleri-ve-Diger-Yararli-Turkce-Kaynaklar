@@ -55,7 +55,7 @@ OOP - OBJECT ORİENTED PROGRAMMİNG - NESNE YÖNELİMLİ PROGRAMLAMA
 
 
 
-Class (Sınıf):
+-Class (Sınıf):
 
 Gerçek dünyadaki nesnelerin özellikleri ve davranışları sınıflara aktarılır. 
 Bu durumların sınıflara aktarılması metodlarla (fonksiyonlarla) olur. Sınıfta tanımlanan metot ve değişkenlere sınıfın üyeleri denir. Değişkenler ad, soyad, yaş gibi kullanacağımız bilgileri saklamaktadır.
@@ -63,28 +63,37 @@ Metotlar ise, kullanıcı kaydı, iki sayısının toplamı gibi bir görevi yer
 Sınıf soyut bir kavramdır doğrudan kullanılamaz nesne oluşturup kullanabiliriz.
 
 
-Nesne (Object):
+-Nesne (Object):
 
 İçinde veri saklayan ve bu veriler üzerinde işlem yapacak olan metodlar bulunduran bileşenlerdir. 
 Nesneler her uygulamada tekrar kullanılabilir. Nesne oluşturduğumuzda hafızada yer kaplar.
 
 
-Nesne Yönelimli Programlama Özellikleri
+-Nesne Yönelimli Programlama Özellikleri
 
 1. Abstraction - Soyutlama ==> Bir sınıfta davranış ve özelliklerin tanımlanmasına soyutlama diyoruz.
 Örneğin: Araba sınıfında rengi, modeli, tekerlek sayısı, motor gücü, özellikleridir(property).
 Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyonlar) ile tanımlanır.
 
+<br />
 
 2. Inheritance - Miras Alma / Kalıtım ==> Sınıflar birbirinden türeyebilir. Alt sınıf üst sınıfın özelliklerini alabilir.
 Örneğin: Araba ve bisiklet sınıflarında ortak özellik olarak tekerlek sayısı, hızı gibi özelliklerini tekrar yazmak yerine bu özellikleri içeren bir sınıf oluşturup miras alabiliriz. Bir sınıftan birden fazla miras alınıyorsa buna çoklu kalıtım denir.
 
+<br />
+
 3. Polymorphism - Çok Biçimlilik ==> Alt sınıflar üst sınıfın gösterdiği davranışları göstermek zorunda değildir. Alt sınıfların farklı davranışları göstermesine Çok biçimlilik denilmektedir.
 Örneğin: Gemi ve araba sınıflarını ele aldığımızda bunların hareket tipleri bulunmaktadır. Gemi su üzerinden giderken araba karada hareket etmektedir. Kısaca farklı nesnelerin (araba ve gemi gibi) aynı olaya (hareket tipine) farklı şekilde cevap vermesidir.
+
+<br />
+
 4. Encapsulation - Kapsülleme ==> Davranış ve özellikler sınıfta soyutlanarak kapsüllenir. Kapsülleme ile hangi özellik ve davranışın dışarıya sunulup sunulmayacağını belirleriz.
 Örneğin: İnsan sınıfında yemek alışkanlığı bizi ilgilendirmiyorsa bunu kapalı (private) yapıp gizleriz. Ancak ad soyad gibi bilgiler bizi ilgilendirdiği için bunlar açık bırakılır. Bu olaya bilgi saklama yani kapsülleme denilmektedir. Bilgi saklama erişim belirteçleri (public, private, protected, internal) ile gerçekleştirilir.
+
+<br />
+
 Erişim Belirteçleri
-public: Herkesin kullanabileceği özellik ve davranışlardır.
-private: Sadece kendi sınıfta kullanılabilen özellikler ve davranışlardır.
-protected: Sınıf içinde ve miras alınan alt sınıflarda kullanılır.
-internal: Aynı program içerisinden erişilebilir, fakat farklı bir program içerisinden erişilemez.
+-public: Herkesin kullanabileceği özellik ve davranışlardır.
+-private: Sadece kendi sınıfta kullanılabilen özellikler ve davranışlardır.
+-protected: Sınıf içinde ve miras alınan alt sınıflarda kullanılır.
+-internal: Aynı program içerisinden erişilebilir, fakat farklı bir program içerisinden erişilemez.
