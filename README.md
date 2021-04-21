@@ -51,6 +51,7 @@ Bir programlama dili veya uygulama CRUD ifadesi ile birlikte anılıyorsa uygula
  	Sınıflar oluşturarak daha az kod oluşturup daha fazla iş yapıp kod tekrarı önlenir.
 Örneğin: İnsan sınıfında ad, soyad, yaş vb. gibi özellikleri bir defa oluşturup istediğimiz kadar kullanabiliriz.
 
+<br />
 
  Class (Sınıf):
 
@@ -59,12 +60,14 @@ Bu durumların sınıflara aktarılması metodlarla (fonksiyonlarla) olur. Sın�
 Metotlar ise, kullanıcı kaydı, iki sayısının toplamı gibi bir görevi yerine getiren alt programlardır.
 Sınıf soyut bir kavramdır doğrudan kullanılamaz nesne oluşturup kullanabiliriz.
 
+<br />
 
  Nesne (Object):
 
 İçinde veri saklayan ve bu veriler üzerinde işlem yapacak olan metodlar bulunduran bileşenlerdir. 
 Nesneler her uygulamada tekrar kullanılabilir. Nesne oluşturduğumuzda hafızada yer kaplar.
 
+<br />
 
  Nesne Yönelimli Programlama Özellikleri
 
@@ -100,10 +103,11 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 
 
 ## [SOLID PRENSİPLERİ - SOLID PRINCIPLE ](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/SOLID%20Prensipleri.docx)
+### Robert C. Martin (Uncle Bob)
 
 ![solid](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/solid.png)
 
-Robert C. Martin (Uncle Bob)
+
 
  	Single Responsibility ==> Tek Sorumluluk Prensibi / İlkesi
 
@@ -127,7 +131,6 @@ Robert C. Martin (Uncle Bob)
 
 -	Bir metod sadece kendi görevini yapmalı, bir sınıf sadece o sınıfla ilgili metodları, alanları, özellikleri barındırmalıdır.
 
-
 -	Birden fazla işle veya katmanla ilişkilendirilmemeli, her bir yapının tek bir sorumluluğu olmalıdır.
 
 Örnek: Bir restoranda tüm işi tek bir kişi yapsaydı nasıl olurdu? Garsonluk, temizlik, yemekler ve bir de hesaba bakmak var tabii. Görseldeki örnek gibi her şey çok karışırdı değil mi? Peki o restoranda çalışan birçok kişi olsa ve herkesin farklı görevleri olup herkes kendi işini yapsa? İşte Single Responsibility Principle (Tek Sorumluluk İlkesi) de bu şekildedir.
@@ -135,6 +138,8 @@ Robert C. Martin (Uncle Bob)
 ![single responsibility](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/singleResponsibility.png)
 
 Yazılım tarafında örnek verecek olursak her class’ın tek bir tane sorumluluğu olmalıdır diyebiliriz. Product sınıfında product dışında hiçbir class özelliği olmamalıdır. Özetle, SOLID Prensiplerinin S’si her class tek bir sorumluluktan ibaret olmalıdır diyor.
+
+<br />
 
 2. Open Closed Principle:
 
@@ -154,6 +159,8 @@ Fakat diğer yandan kodlarımız ortadaki kareden oluşuyor olsa ve onu Open Clo
 
 Yazılım tarafında da olay aynen bu şekilde olmalıdır. Yaptığımız programa yeni bir özellik ekleyeceğimiz zaman kodlarımızın hiçbir yerine dokunmadan o özelliği pıt pıt entegre edebiliyor olmalıyız.
 
+<br />
+
 3. Liskov Substitution Principle:
 
 -	Hiçbir değişikliğe ihtiyaç duymadan alt sınıfları, miras aldıkları – türedikleri üst sınıfların yerine kullanabilmeliyiz.
@@ -167,6 +174,8 @@ Yazılım tarafında da olay aynen bu şekilde olmalıdır. Yaptığımız progr
 Dolayısıyla yazılım kısmında da sırf 2 ördek birbirine benziyor diye miras aldığımız zaman oyuncak ördeğin uçma fonksiyonu bize hata fırlatacaktır ya da çalışmayacak, boş kalacaktır.
 
 ![liskov substitution](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/liskovSubstitution.png)
+
+<br />
  
 4. Interface Segregation Principle:
 
@@ -181,6 +190,8 @@ Fakat daha düşük model bir araba olan Murat 131’ e de bu arayüzü implemen
 Kısacası, SOLID Prensiplerinin I’sı senin bir özelliğin ortak değilse sen de bu ortak olmayan özelliği ayrıştır diyor.
 
 ![interface segregation](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/interfaceSegregation.png)
+
+<br />
  
 5. Dependency Inversion Principle:
 
@@ -203,7 +214,7 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
 <br />
 <br />
 
-## DRY (Don’t Repeat Yourself)
+## DRY PRENSİBİ (Don’t Repeat Yourself)
 
  	“Kendini tekrar etme” anlamına gelir.
  	Kod tekrarlarından sakınılması gerektiğini öneren bir prensiptir.
@@ -211,13 +222,13 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
 <br />
 <br />
 
-## KISS (Keep it Simple Stupid)
+## KISS PRENSİBİ (Keep it Simple Stupid)
  	Basit ve aptalca tutun anlamına gelir.
  	Basitlik için çabalamayı öneren bir prensiptir.
 
 <br />
 <br />
 
-## YAGNI (You Aren’t Gonna Need It)
+## YAGNI PRENSİBİ (You Aren’t Gonna Need It)
  	Buna ihtiyacın olmayacak anlamına gelir.
  	Gelecekte lazım olacak düşüncesiyle ihtiyacımız olmayacak şeyleri sisteme dahil etmemeyi söyleyen bir prensiptir.
