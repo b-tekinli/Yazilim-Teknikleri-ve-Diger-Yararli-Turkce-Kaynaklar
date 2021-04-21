@@ -55,7 +55,7 @@ OOP - OBJECT ORİENTED PROGRAMMİNG - NESNE YÖNELİMLİ PROGRAMLAMA
 
 
 
--Class (Sınıf):
+- Class (Sınıf):
 
 Gerçek dünyadaki nesnelerin özellikleri ve davranışları sınıflara aktarılır. 
 Bu durumların sınıflara aktarılması metodlarla (fonksiyonlarla) olur. Sınıfta tanımlanan metot ve değişkenlere sınıfın üyeleri denir. Değişkenler ad, soyad, yaş gibi kullanacağımız bilgileri saklamaktadır.
@@ -63,13 +63,13 @@ Metotlar ise, kullanıcı kaydı, iki sayısının toplamı gibi bir görevi yer
 Sınıf soyut bir kavramdır doğrudan kullanılamaz nesne oluşturup kullanabiliriz.
 
 
--Nesne (Object):
+- Nesne (Object):
 
 İçinde veri saklayan ve bu veriler üzerinde işlem yapacak olan metodlar bulunduran bileşenlerdir. 
 Nesneler her uygulamada tekrar kullanılabilir. Nesne oluşturduğumuzda hafızada yer kaplar.
 
 
--Nesne Yönelimli Programlama Özellikleri
+- Nesne Yönelimli Programlama Özellikleri
 
 1. Abstraction - Soyutlama ==> Bir sınıfta davranış ve özelliklerin tanımlanmasına soyutlama diyoruz.
 Örneğin: Araba sınıfında rengi, modeli, tekerlek sayısı, motor gücü, özellikleridir(property).
@@ -93,7 +93,7 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 <br />
 
 Erişim Belirteçleri
--public: Herkesin kullanabileceği özellik ve davranışlardır.
--private: Sadece kendi sınıfta kullanılabilen özellikler ve davranışlardır.
--protected: Sınıf içinde ve miras alınan alt sınıflarda kullanılır.
--internal: Aynı program içerisinden erişilebilir, fakat farklı bir program içerisinden erişilemez.
+- public: Herkesin kullanabileceği özellik ve davranışlardır.
+- private: Sadece kendi sınıfta kullanılabilen özellikler ve davranışlardır.
+- protected: Sınıf içinde ve miras alınan alt sınıflarda kullanılır.
+- internal: Aynı program içerisinden erişilebilir, fakat farklı bir program içerisinden erişilemez.
