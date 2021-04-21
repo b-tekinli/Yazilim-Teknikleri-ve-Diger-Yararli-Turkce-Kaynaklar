@@ -1,13 +1,13 @@
 # Yazılım Teknikleri ve Diğer Yararlı Türkçe Kaynaklar
 Software techniques and other useful Turkish resources 
 
-WPF Uygulamaları <br />
+- WPF Uygulamaları <br />
 
-SOLID Prensipleri <br />
+- SOLID Prensipleri <br />
 
-Nesne Tabanlı Programlama <br />
+- Nesne Tabanlı Programlama <br />
 
-CRUD Fonksiyonları
+- CRUD Fonksiyonları
 
 <br />
 <br />
@@ -36,6 +36,8 @@ Bir programlama dili veya uygulama CRUD ifadesi ile birlikte anılıyorsa uygula
 <br />
 
 ## [OOP - NESNE TABANLI PROGRAMLAMA - OBJECT ORİENTED PROGRAMMİNG](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/OOP.docx)
+
+![oop](https://miro.medium.com/max/1202/1*yox45V3KzQM6AAOKJF8zwQ.jpeg)
 
  	Gerçek dünyadaki nesnelerin tasarımı sınıf içinde yapılır.
 
@@ -102,12 +104,9 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 
 ## [SOLID PRENSİPLERİ - SOLID PRINCIPLE ](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/SOLID%20Prensipleri.docx)
 
-
-SOLID PRENSİPLERİ
+![solid](https://i2.wp.com/www.muratoner.net/wp-content/uploads/2020/06/1_XOMTPWTpDLypkp079p9XXg.png?fit=1191%2C842&ssl=1)
 
 Robert C. Martin (Uncle Bob)
-
-
 
  	Single Responsibility ==> Tek Sorumluluk Prensibi / İlkesi
 
@@ -122,8 +121,6 @@ Robert C. Martin (Uncle Bob)
 
 
  	Dependency Inversion ==> Bağımlılıkların Tersine Çevrilmesi Prensibi
-
-
 
 
 
@@ -148,7 +145,6 @@ Yazılım tarafında örnek verecek olursak her class’ın tek bir tane sorumlu
 
 -	Yeni özellik, geliştirme istediğinde yazılımımız bize direnç göstermemelidir.
 
-
 -	Yazılım değiştirilmeye kapalı, geliştirilmeye açık olmalıdır.
 
 Örnek: Bilgisayarımızda ram yetersiz olduğunda bilgisayarın hiçbir yerini bozmadan işlemci ya da klavye gibi farklı yerlerine dokunmadan sadece ram takılan kısma gelip ekleyebiliyoruz. 
@@ -157,8 +153,7 @@ Görselde de gördüğünüz gibi kodlarımızın tamamı dikdörtgen ve kareden
 
 Fakat diğer yandan kodlarımız ortadaki kareden oluşuyor olsa ve onu Open Closed İlkesine göre yapmamış olsak bir özellik çıkartmak istediğimizde karenin 4 köşesinden de kesmemiz gerekir ki daire şeklini ancak alabilsin..
 
- 
-
+![open closed](https://lh3.googleusercontent.com/Phxfd-uNa9wjtb7KFVF3YpcxLMpibnkOTXnJPZtfumARZr1IGkytIip4ajHYIvRcv3YNpd0=s155)
 
 Yazılım tarafında da olay aynen bu şekilde olmalıdır. Yaptığımız programa yeni bir özellik ekleyeceğimiz zaman kodlarımızın hiçbir yerine dokunmadan o özelliği pıt pıt entegre edebiliyor olmalıyız.
 
