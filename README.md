@@ -134,12 +134,12 @@ Robert C. Martin (Uncle Bob)
 
 1. Single Responsibility Principle:
 
-	Bir sınıfın, bir metodun, her bir iş yapan yapının tek bir görevi olması gerektiğini savunur.
+-	Bir sınıfın, bir metodun, her bir iş yapan yapının tek bir görevi olması gerektiğini savunur.
 
-	Bir metod sadece kendi görevini yapmalı, bir sınıf sadece o sınıfla ilgili metodları, alanları, özellikleri barındırmalıdır.
+-	Bir metod sadece kendi görevini yapmalı, bir sınıf sadece o sınıfla ilgili metodları, alanları, özellikleri barındırmalıdır.
 
 
-	Birden fazla işle veya katmanla ilişkilendirilmemeli, her bir yapının tek bir sorumluluğu olmalıdır.
+-	Birden fazla işle veya katmanla ilişkilendirilmemeli, her bir yapının tek bir sorumluluğu olmalıdır.
 
 Örnek: Bir restoranda tüm işi tek bir kişi yapsaydı nasıl olurdu? Garsonluk, temizlik, yemekler ve bir de hesaba bakmak var tabii. Görseldeki örnek gibi her şey çok karışırdı değil mi? Peki o restoranda çalışan birçok kişi olsa ve herkesin farklı görevleri olup herkes kendi işini yapsa? İşte Single Responsibility Principle (Tek Sorumluluk İlkesi) de bu şekildedir.
 
@@ -171,23 +171,23 @@ Yazılım tarafında da olay aynen bu şekilde olmalıdır. Yaptığımız progr
 
 3. Liskov Substitution Principle:
 
-	Hiçbir değişikliğe ihtiyaç duymadan alt sınıfları, miras aldıkları – türedikleri üst sınıfların yerine kullanabilmeliyiz.
+-	Hiçbir değişikliğe ihtiyaç duymadan alt sınıfları, miras aldıkları – türedikleri üst sınıfların yerine kullanabilmeliyiz.
 
-	Alt sınıflar miras aldıkları üst sınıfların tüm özelliklerini barındırıyor olabilirler.
+-	Alt sınıflar miras aldıkları üst sınıfların tüm özelliklerini barındırıyor olabilirler.
 
 
-	Sadece birbirine benziyor diye sınıflar birbirinden miras (kalıtım) almamalıdır. Alt sınıf üst sınıfın özelliklerini, metodlarını mutlaka kullanmalıdır ve yer değiştirdiğinde doğru sonuçları verecek şekilde bozulmadan çalışmalıdır.
+-	Sadece birbirine benziyor diye sınıflar birbirinden miras (kalıtım) almamalıdır. Alt sınıf üst sınıfın özelliklerini, metodlarını mutlaka kullanmalıdır ve yer değiştirdiğinde doğru sonuçları verecek şekilde bozulmadan çalışmalıdır.
 
 Örnek: Yukarıda son paragrafta kalın ve italik yazdığım cümleyi tekrar okumanızı rica edip görselden örnek verecek olursak şöyle açıklayabiliriz: Canlı ve oyuncak ördeğin tabii ki yapabildikleri bazı şeyler kısıtlıdır. Bir metodumuz olduğunu düşünün bu metotta yüzmek, ses çıkartmak ve uçmak olsun. Her 2 ördek ses çıkartabilir oyuncak ördeğe bastığımızda ses çıkartacaktır. 2 ördek de yüzebilir oyuncak ördeği su üzerine koyduğumuzda suyun dibine çökmeyecektir. Fakat uçma konusunda oyuncak olan doğal olarak uçamayacaktır.
 Dolayısıyla yazılım kısmında da sırf 2 ördek birbirine benziyor diye miras aldığımız zaman oyuncak ördeğin uçma fonksiyonu bize hata fırlatacaktır ya da çalışmayacak, boş kalacaktır.
  
 4. Interface Segregation Principle:
 
-	Arayüzü implement eden sınıfların gereksiz metod bulundurmaması gerekir.
+-	Arayüzü implement eden sınıfların gereksiz metod bulundurmaması gerekir.
 
-	Sorumlulukları tek bir arayüze tanımlamak yerine daha özelleştirilmiş birbirinden ayrı arayüzler oluşturmak gerekir.
+-	Sorumlulukları tek bir arayüze tanımlamak yerine daha özelleştirilmiş birbirinden ayrı arayüzler oluşturmak gerekir.
 
-	Arayüzler birbirinden ayrılmadığında bu arayüzü implement eden sınıflarda gereksiz metodlar veya özellikler olacaktır. Ortak olmayan her bir sorumluluk için ayrı bir arayüz oluşturulması gerekmektedir.
+-	Arayüzler birbirinden ayrılmadığında bu arayüzü implement eden sınıflarda gereksiz metodlar veya özellikler olacaktır. Ortak olmayan her bir sorumluluk için ayrı bir arayüz oluşturulması gerekmektedir.
 
 Örnek: Düşünün ki bir araba üreticisisiniz. Arabanıza default (varsayılan) olarak gaza bas, frene bas ve müzik çalar gibi özellikler vereceksiniz. Bu özellikleri bir arayüzde topladınız ve Audi marka bir arabaya implement ettiniz.
 Fakat daha düşük model bir araba olan Murat 131’ e de bu arayüzü implement etseniz o arabada müzik çalar özelliği olmadığından müzik çalar kısmına gereksiz, boş düğmeler eklemek zorunda kalırsınız. Yani interfaceler içerisine yazılan şeyleri zorunlu hale getirdiği için bu özelliği desteklemeyen bir arabaya müzik çaları default olarak koymak zorunda olursunuz. Bu durumda Audi’yi ayrı Murat131’i ayrı implement etmeniz gerekli. Ortak olan özellikleri aynı arayüzde ortak olmayanları ise ayrı arayüzlere böl, parçala…
@@ -195,12 +195,12 @@ Kısacası, SOLID Prensiplerinin I’sı senin bir özelliğin ortak değilse se
  
 5. Dependency Inversion Principle:
 
-	Sınıflar arasındaki bağımlılık en aza indirgenmelidir.
+-	Sınıflar arasındaki bağımlılık en aza indirgenmelidir.
 
-	Üst sınıflar, alt sınıflara bağımlı olmamalıdır. Tüm somut sınıflar soyutlanma yöntemi ile bağımlılıkları azaltılmalıdır.
+-	Üst sınıflar, alt sınıflara bağımlı olmamalıdır. Tüm somut sınıflar soyutlanma yöntemi ile bağımlılıkları azaltılmalıdır.
 
 
-	Alt sınıflardaki yapılacak değişiklikler üst sınıfları etkilememelidir.
+-	Alt sınıflardaki yapılacak değişiklikler üst sınıfları etkilememelidir.
 
 o	Peki, bütün bu sorunlardan kurtulmanın yolu nedir ?
 Cevap:  Yüksek seviye ve düşük seviye sınıflar arasında bir soyutlama katmanı oluşturabiliriz.
