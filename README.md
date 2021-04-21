@@ -127,11 +127,6 @@ Robert C. Martin (Uncle Bob)
 
 
 
-
-
-
-
-
 1. Single Responsibility Principle:
 
 -	Bir sınıfın, bir metodun, her bir iş yapan yapının tek bir görevi olması gerektiğini savunur.
@@ -142,8 +137,6 @@ Robert C. Martin (Uncle Bob)
 -	Birden fazla işle veya katmanla ilişkilendirilmemeli, her bir yapının tek bir sorumluluğu olmalıdır.
 
 Örnek: Bir restoranda tüm işi tek bir kişi yapsaydı nasıl olurdu? Garsonluk, temizlik, yemekler ve bir de hesaba bakmak var tabii. Görseldeki örnek gibi her şey çok karışırdı değil mi? Peki o restoranda çalışan birçok kişi olsa ve herkesin farklı görevleri olup herkes kendi işini yapsa? İşte Single Responsibility Principle (Tek Sorumluluk İlkesi) de bu şekildedir.
-
-[p1](https://devnot.com/wp-content/uploads/2016/11/single-responsibility-princ.jpg)
  
 
 
@@ -210,3 +203,28 @@ Cevap:  Yüksek seviye ve düşük seviye sınıflar arasında bir soyutlama kat
  
 
 Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapıyı kullanan fakat birden fazla arayüze (web, mobile gibi) sahip olan birçok uygulama var. Burada da altyapı üzerinde çalışan ve iş süreçlerini yöneten katman bizim “yüksek seviye” modülümüzdür. Bu açıdan bakıldığında kullanıcı arayüzünün düşük seviye olduğunu söylememiz mümkün.
+
+<br />
+<br />
+<br />
+
+## DRY (Don’t Repeat Yourself)
+
+ 	“Kendini tekrar etme” anlamına gelir.
+ 	Kod tekrarlarından sakınılması gerektiğini öneren bir prensiptir.
+
+<br />
+<br />
+<br />
+
+## KISS (Keep it Simple Stupid)
+ 	Basit ve aptalca tutun anlamına gelir.
+ 	Basitlik için çabalamayı öneren bir prensiptir.
+
+<br />
+<br />
+<br />
+
+## YAGNI (You Aren’t Gonna Need It)
+ 	Buna ihtiyacın olmayacak anlamına gelir.
+ 	Gelecekte lazım olacak düşüncesiyle ihtiyacımız olmayacak şeyleri sisteme dahil etmemeyi söyleyen bir prensiptir.
