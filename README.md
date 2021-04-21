@@ -9,7 +9,7 @@ Nesne Tabanlı Programlama <br />
 
 CRUD Fonksiyonları <br />
 
-## CRUD FONKSİYONLARI
+## [CRUD FONKSİYONLARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/CRUD%20Fonksiyonlar%C4%B1.docx)
 
 Veritabanı Kayıt (Ekleme, Okuma, Güncelleme ve Silme) İşlemleri
 
