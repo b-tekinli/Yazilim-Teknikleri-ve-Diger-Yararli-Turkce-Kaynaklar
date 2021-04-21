@@ -138,7 +138,7 @@ Robert C. Martin (Uncle Bob)
 
 Örnek: Bir restoranda tüm işi tek bir kişi yapsaydı nasıl olurdu? Garsonluk, temizlik, yemekler ve bir de hesaba bakmak var tabii. Görseldeki örnek gibi her şey çok karışırdı değil mi? Peki o restoranda çalışan birçok kişi olsa ve herkesin farklı görevleri olup herkes kendi işini yapsa? İşte Single Responsibility Principle (Tek Sorumluluk İlkesi) de bu şekildedir.
  
-
+![single responsibility](https://devnot.com/wp-content/uploads/2016/11/single-responsibility-princ.jpg)
 
 Yazılım tarafında örnek verecek olursak her class’ın tek bir tane sorumluluğu olmalıdır diyebiliriz. Product sınıfında product dışında hiçbir class özelliği olmamalıdır. Özetle, SOLID Prensiplerinin S’si her class tek bir sorumluluktan ibaret olmalıdır diyor.
 
