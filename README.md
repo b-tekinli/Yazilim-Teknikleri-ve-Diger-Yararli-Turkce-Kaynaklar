@@ -143,7 +143,7 @@ Robert C. Martin (Uncle Bob)
 
 Örnek: Bir restoranda tüm işi tek bir kişi yapsaydı nasıl olurdu? Garsonluk, temizlik, yemekler ve bir de hesaba bakmak var tabii. Görseldeki örnek gibi her şey çok karışırdı değil mi? Peki o restoranda çalışan birçok kişi olsa ve herkesin farklı görevleri olup herkes kendi işini yapsa? İşte Single Responsibility Principle (Tek Sorumluluk İlkesi) de bu şekildedir.
 
-
+[p1](https://devnot.com/wp-content/uploads/2016/11/single-responsibility-princ.jpg)
  
 
 
