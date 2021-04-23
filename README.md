@@ -1,10 +1,12 @@
 # Yazılım Teknikleri ve Diğer Yararlı Türkçe Kaynaklar
 Software techniques and other useful Turkish resources 
 
-- CRUD Fonksiyonları <br />
-- Nesne Tabanlı Programlama <br />
-- SOLID Prensipleri <br />
-- DRY, KISS ve YAGNI Prensipleri
+- [CRUD Fonksiyonları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
+- [Nesne Tabanlı Programlama](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#oop---nesne-tabanli-programlama---object-ori%CC%87ented-programmi%CC%87ng) <br />
+- [SOLID Prensipleri](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#solid-prensi%CC%87pleri%CC%87---solid-principle-) <br />
+- [DRY Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#dry-prensi%CC%87bi%CC%87-dont-repeat-yourself)
+- [KISS Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#kiss-prensi%CC%87bi%CC%87-keep-it-simple-stupid)
+- [YAGNI Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#yagni-prensi%CC%87bi%CC%87-you-arent-gonna-need-it)
 - WPF Uygulamaları Notları ve Tool Kısaltmaları
 
 
