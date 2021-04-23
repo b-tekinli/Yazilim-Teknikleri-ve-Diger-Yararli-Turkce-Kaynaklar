@@ -225,6 +225,9 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
  	Kod tekrarlarından sakınılması gerektiğini öneren bir prensiptir.
 
 <br />
+
+![dry](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/dry.png)
+
 <br />
 
 ## KISS PRENSİBİ (Keep it Simple Stupid)
