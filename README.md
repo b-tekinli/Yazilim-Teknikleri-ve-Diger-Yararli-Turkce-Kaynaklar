@@ -232,7 +232,9 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
  	Basitlik için çabalamayı öneren bir prensiptir.
 
 <br />
+
 ![yagni and kiss](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/yagniAndKiss.png)
+
 <br />
 
 ## YAGNI PRENSİBİ (You Aren’t Gonna Need It)
