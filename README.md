@@ -106,6 +106,9 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 <br />
 <br />
 
+<details>
+  
+  <summary>:zap: Prensipler</summary>
 
 ## [SOLID PRENSİPLERİ - SOLID PRINCIPLE ](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/SOLID%20Prensipleri.docx)
 ### Robert C. Martin (Uncle Bob)
@@ -243,3 +246,5 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
 ## YAGNI PRENSİBİ (You Aren’t Gonna Need It)
  	Buna ihtiyacın olmayacak anlamına gelir.
  	Gelecekte lazım olacak düşüncesiyle ihtiyacımız olmayacak şeyleri sisteme dahil etmemeyi söyleyen bir prensiptir.
+  
+  </details>
