@@ -15,7 +15,7 @@ Software techniques and other useful Turkish resources
 
 <details>
   
-  <summary>:zap: CRUD</summary>
+  <summary>:hammer_and_wrench: CRUD</summary>
 
 ## [CRUD FONKSİYONLARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/CRUD%20Fonksiyonlar%C4%B1.docx)
 
@@ -46,7 +46,7 @@ Bir programlama dili veya uygulama CRUD ifadesi ile birlikte anılıyorsa uygula
 
 <details>
   
-  <summary>:zap: OOP</summary>
+  <summary>:gear: OOP</summary>
 
 ## [OOP - NESNE TABANLI PROGRAMLAMA - OBJECT ORİENTED PROGRAMMİNG](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/OOP.docx)
 
@@ -119,7 +119,7 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 
 <details>
   
-  <summary>:zap: Prensipler</summary>
+  <summary>:books: Prensipler</summary>
 
 ## [SOLID PRENSİPLERİ - SOLID PRINCIPLE ](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/SOLID%20Prensipleri.docx)
 ### Robert C. Martin (Uncle Bob)
