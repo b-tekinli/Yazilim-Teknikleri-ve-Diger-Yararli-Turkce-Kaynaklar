@@ -261,7 +261,7 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
   </details>
   
 <details>
-  <summary>:toolbox: Toolbox Kısaltmaları </summary>
+  <summary>:toolbox: Toolbox Kısaltmaları</summary>
   AdRotator :left_right_arrow: ar
   Button :left_right_arrow: btn
   Calender :left_right_arrow: cal
