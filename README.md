@@ -262,56 +262,61 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
   
 <details>
   <summary>:toolbox: Toolbox Kısaltmaları</summary>
-  AdRotator :left_right_arrow: ar
-  Button :left_right_arrow: btn
-  Calender :left_right_arrow: cal
-  CheckBox :left_right_arrow: chk
-  CheckBoxList :left_right_arrow: chklst
-  Column (DataGridView) :left_right_arrow: col
-  ColumnHeader (ListView ) :left_right_arrow: ch
-  Combobox :left_right_arrow: cbo
-  CompareValidator :left_right_arrow: cv
-  CrystalReportViewer :left_right_arrow: rptvew
-  DataGrid :left_right_arrow: dg
-  DataGridView :left_right_arrow: dgv
-  DataList :left_right_arrow: dl
-  DomainUpDown :left_right_arrow: dud
-  DropDownList :left_right_arrow: ddl
-  FileUpload :left_right_arrow: ful
-  Form :left_right_arrow: frm
-  GridView :left_right_arrow: gv
-  GroupBox :left_right_arrow: grp
-  HiddenField :left_right_arrow: hf
-  Image :left_right_arrow: img
-  ImageButton :left_right_arrow: imgbtn
-  ImageList :left_right_arrow: il
-  Label :left_right_arrow: lbl
-  LinkButton :left_right_arrow: lnkbtn
-  ListBox :left_right_arrow: lst
-  ListView :left_right_arrow: lv
-  MenuStrip :left_right_arrow: ms
-  ObjectDataSource :left_right_arrow: ods
-  PagedDataSource :left_right_arrow: pds
-  Panel :left_right_arrow: pnl
-  PictureBox :left_right_arrow: pic
-  RadioButton :left_right_arrow: rdo
-  RadioButtonList :left_right_arrow: rdolst
-  RangeValidator :left_right_arrow: rv
-  RegularExpressionValidator :left_right_arrow: rev
-  Repeater :left_right_arrow: rpt
-  RequiredFieldValidator :left_right_arrow: rfv
-  StatusLabel :left_right_arrow: slbl
-  StatusStrip :left_right_arrow: ss
-  TabControl :left_right_arrow: tab
-  Table :left_right_arrow: tbl
-  TabPage :left_right_arrow: tp
-  TextBox :left_right_arrow: txt
-  Timer :left_right_arrow: tmr
-  ToolStrip :left_right_arrow: ts
-  ToolStripButton :left_right_arrow: tsbtn
-  ToolStripDropDownButton :left_right_arrow: tsddb
-  ToolStripLabel :left_right_arrow: tslbl
-  ToolStripMenuItem :left_right_arrow: tsmi
-  TreeView :left_right_arrow: tv/tvw
-  ValidatorSummary :left_right_arrow: vs
+  
+  ## WİNDOWS FORM TOOLBOX KISALTMALARI
+  
+  <br />
+  
+  AdRotator :left_right_arrow: ar <br />
+  Button :left_right_arrow: btn <br />
+  Calender :left_right_arrow: cal <br />
+  CheckBox :left_right_arrow: chk <br />
+  CheckBoxList :left_right_arrow: chklst <br />
+  Column (DataGridView) :left_right_arrow: col <br />
+  ColumnHeader (ListView ) :left_right_arrow: ch <br />
+  Combobox :left_right_arrow: cbo <br />
+  CompareValidator :left_right_arrow: cv <br />
+  CrystalReportViewer :left_right_arrow: rptvew <br />
+  DataGrid :left_right_arrow: dg <br />
+  DataGridView :left_right_arrow: dgv <br />
+  DataList :left_right_arrow: dl <br />
+  DomainUpDown :left_right_arrow: dud <br />
+  DropDownList :left_right_arrow: ddl <br />
+  FileUpload :left_right_arrow: ful <br />
+  Form :left_right_arrow: frm <br />
+  GridView :left_right_arrow: gv <br />
+  GroupBox :left_right_arrow: grp <br />
+  HiddenField :left_right_arrow: hf <br />
+  Image :left_right_arrow: img <br />
+  ImageButton :left_right_arrow: imgbtn <br />
+  ImageList :left_right_arrow: il <br />
+  Label :left_right_arrow: lbl <br />
+  LinkButton :left_right_arrow: lnkbtn <br />
+  ListBox :left_right_arrow: lst <br />
+  ListView :left_right_arrow: lv <br />
+  MenuStrip :left_right_arrow: ms <br />
+  ObjectDataSource :left_right_arrow: ods <br />
+  PagedDataSource :left_right_arrow: pds <br />
+  Panel :left_right_arrow: pnl <br />
+  PictureBox :left_right_arrow: pic <br />
+  RadioButton :left_right_arrow: rdo <br />
+  RadioButtonList :left_right_arrow: rdolst <br />
+  RangeValidator :left_right_arrow: rv <br />
+  RegularExpressionValidator :left_right_arrow: rev <br />
+  Repeater :left_right_arrow: rpt <br />
+  RequiredFieldValidator :left_right_arrow: rfv <br />
+  StatusLabel :left_right_arrow: slbl <br />
+  StatusStrip :left_right_arrow: ss <br />
+  TabControl :left_right_arrow: tab <br />
+  Table :left_right_arrow: tbl <br />
+  TabPage :left_right_arrow: tp <br />
+  TextBox :left_right_arrow: txt <br />
+  Timer :left_right_arrow: tmr <br />
+  ToolStrip :left_right_arrow: ts <br />
+  ToolStripButton :left_right_arrow: tsbtn <br />
+  ToolStripDropDownButton :left_right_arrow: tsddb <br />
+  ToolStripLabel :left_right_arrow: tslbl <br />
+  ToolStripMenuItem :left_right_arrow: tsmi <br />
+  TreeView :left_right_arrow: tv/tvw <br />
+  ValidatorSummary :left_right_arrow: vs <br />
 </details>
