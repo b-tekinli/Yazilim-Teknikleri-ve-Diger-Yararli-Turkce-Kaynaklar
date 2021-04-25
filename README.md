@@ -260,60 +260,58 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
   
   </details>
   
-<br />
-  
 <details>
   <summary>:toolbox: </summary>
-  AdRotator  ar
-  Button  btn
-  Calender  cal
-  CheckBox  chk
-  CheckBoxList     chklst
-  Column (DataGridView)  col
-  ColumnHeader (ListView )  ch
-  Combobox   cbo
-  CompareValidator  cv
-  CrystalReportViewer  rptvew
-  DataGrid   dg
-  DataGridView  dgv
-  DataList   dl
-  DomainUpDown  dud
-  DropDownList   ddl
-  FileUpload   ful
-  Form   frm
-  GridView    gv
-  GroupBox  grp
-  HiddenField  hf
-  Image  img
-  ImageButton  imgbtn
-  ImageList   il
-  Label  lbl
-  LinkButton  lnkbtn
-  ListBox  lst
-  ListView  lv
-  MenuStrip  ms
-  ObjectDataSource  ods
-  PagedDataSource  pds
-  Panel  pnl
-  PictureBox   pic
-  RadioButton  rdo
-  RadioButtonList  rdolst
-  RangeValidator  rv
-  RegularExpressionValidator  rev
-  Repeater  rpt
-  RequiredFieldValidator  rfv
-  StatusLabel   slbl
-  StatusStrip  ss
-  TabControl   tab
-  Table  tbl
-  TabPage  tp
-  TextBox    txt 
-  Timer  tmr
-  ToolStrip    ts
-  ToolStripButton   tsbtn
-  ToolStripDropDownButton   tsddb
-  ToolStripLabel   tslbl
-  ToolStripMenuItem   tsmi
-  TreeView   tv/tvw
-  ValidatorSummary  vs
+  AdRotator :left_right_arrow: ar
+  Button :left_right_arrow: btn
+  Calender :left_right_arrow: cal
+  CheckBox :left_right_arrow: chk
+  CheckBoxList :left_right_arrow: chklst
+  Column (DataGridView) :left_right_arrow: col
+  ColumnHeader (ListView ) :left_right_arrow: ch
+  Combobox :left_right_arrow: cbo
+  CompareValidator :left_right_arrow: cv
+  CrystalReportViewer :left_right_arrow: rptvew
+  DataGrid :left_right_arrow: dg
+  DataGridView :left_right_arrow: dgv
+  DataList :left_right_arrow: dl
+  DomainUpDown :left_right_arrow: dud
+  DropDownList :left_right_arrow: ddl
+  FileUpload :left_right_arrow: ful
+  Form :left_right_arrow: frm
+  GridView :left_right_arrow: gv
+  GroupBox :left_right_arrow: grp
+  HiddenField :left_right_arrow: hf
+  Image :left_right_arrow: img
+  ImageButton :left_right_arrow: imgbtn
+  ImageList :left_right_arrow: il
+  Label :left_right_arrow: lbl
+  LinkButton :left_right_arrow: lnkbtn
+  ListBox :left_right_arrow: lst
+  ListView :left_right_arrow: lv
+  MenuStrip :left_right_arrow: ms
+  ObjectDataSource :left_right_arrow: ods
+  PagedDataSource :left_right_arrow: pds
+  Panel :left_right_arrow: pnl
+  PictureBox :left_right_arrow: pic
+  RadioButton :left_right_arrow: rdo
+  RadioButtonList :left_right_arrow: rdolst
+  RangeValidator :left_right_arrow: rv
+  RegularExpressionValidator :left_right_arrow: rev
+  Repeater :left_right_arrow: rpt
+  RequiredFieldValidator :left_right_arrow: rfv
+  StatusLabel :left_right_arrow: slbl
+  StatusStrip :left_right_arrow: ss
+  TabControl :left_right_arrow: tab
+  Table :left_right_arrow: tbl
+  TabPage :left_right_arrow: tp
+  TextBox :left_right_arrow: txt
+  Timer :left_right_arrow: tmr
+  ToolStrip :left_right_arrow: ts
+  ToolStripButton :left_right_arrow: tsbtn
+  ToolStripDropDownButton :left_right_arrow: tsddb
+  ToolStripLabel :left_right_arrow: tslbl
+  ToolStripMenuItem :left_right_arrow: tsmi
+  TreeView :left_right_arrow: tv/tvw
+  ValidatorSummary :left_right_arrow: vs
 </details>
