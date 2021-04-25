@@ -263,7 +263,7 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
 <details>
   <summary>:toolbox: Toolbox Kısaltmaları</summary>
   
-  ## WİNDOWS FORM TOOLBOX KISALTMALARI
+  ## [WİNDOWS FORM TOOLBOX KISALTMALARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/Windows%20Form%20Toolbox%20Kısaltmaları.docx)
   
   <br />
   
