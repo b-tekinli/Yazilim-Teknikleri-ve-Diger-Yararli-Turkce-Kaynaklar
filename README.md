@@ -7,7 +7,7 @@ Software techniques and other useful Turkish resources
 - [DRY Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#dry-prensi%CC%87bi%CC%87-dont-repeat-yourself)
 - [KISS Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#kiss-prensi%CC%87bi%CC%87-keep-it-simple-stupid)
 - [YAGNI Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#yagni-prensi%CC%87bi%CC%87-you-arent-gonna-need-it)
-- WPF Uygulamaları Notları ve Tool Kısaltmaları
+- [Windows Form Toolbox Kısaltmaları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#wi%CC%87ndows-form-toolbox-kisaltmalari)
 
 
 <br />
