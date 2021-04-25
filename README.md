@@ -259,3 +259,61 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
  	Gelecekte lazım olacak düşüncesiyle ihtiyacımız olmayacak şeyleri sisteme dahil etmemeyi söyleyen bir prensiptir.
   
   </details>
+  
+<br />
+  
+<details>
+  <summary>:toolbox: </summary>
+  AdRotator  ar
+  Button  btn
+  Calender  cal
+  CheckBox  chk
+  CheckBoxList     chklst
+  Column (DataGridView)  col
+  ColumnHeader (ListView )  ch
+  Combobox   cbo
+  CompareValidator  cv
+  CrystalReportViewer  rptvew
+  DataGrid   dg
+  DataGridView  dgv
+  DataList   dl
+  DomainUpDown  dud
+  DropDownList   ddl
+  FileUpload   ful
+  Form   frm
+  GridView    gv
+  GroupBox  grp
+  HiddenField  hf
+  Image  img
+  ImageButton  imgbtn
+  ImageList   il
+  Label  lbl
+  LinkButton  lnkbtn
+  ListBox  lst
+  ListView  lv
+  MenuStrip  ms
+  ObjectDataSource  ods
+  PagedDataSource  pds
+  Panel  pnl
+  PictureBox   pic
+  RadioButton  rdo
+  RadioButtonList  rdolst
+  RangeValidator  rv
+  RegularExpressionValidator  rev
+  Repeater  rpt
+  RequiredFieldValidator  rfv
+  StatusLabel   slbl
+  StatusStrip  ss
+  TabControl   tab
+  Table  tbl
+  TabPage  tp
+  TextBox    txt 
+  Timer  tmr
+  ToolStrip    ts
+  ToolStripButton   tsbtn
+  ToolStripDropDownButton   tsddb
+  ToolStripLabel   tslbl
+  ToolStripMenuItem   tsmi
+  TreeView   tv/tvw
+  ValidatorSummary  vs
+</details>
