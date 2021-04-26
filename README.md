@@ -261,8 +261,8 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
   </details>
  
  <details>
-  <summary> 💻 Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
-    ## Windows Form App Notları
+  <summary>💻 Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
+  ## [Windows Form App Notları]()
   
     WİNDOWS FORM APPLİCATİON NOTLARI ve KISAYOLLARI
 
