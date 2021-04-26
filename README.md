@@ -259,7 +259,164 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
  	Gelecekte lazım olacak düşüncesiyle ihtiyacımız olmayacak şeyleri sisteme dahil etmemeyi söyleyen bir prensiptir.
   
   </details>
+ 
+ <details>
+  <summary> 💻 Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
+    ## Windows Form App Notları
   
+    WİNDOWS FORM APPLİCATİON NOTLARI ve KISAYOLLARI
+
+Windows Form nedir?
+.NetFramework’ün bir parçası olarak dahil edilen grafik ders kitaplığıdır.
+Kodlamanın yanı sıra toolbox yardımı ile görsele yönelik programlama yapmamızı sağlar.
+
+Toolbox nedir?
+•	Windows tabanlı görsel uygulamalar geliştirirken kullanacağımız bir grup kontroldür.
+•	Form kontrolü hariç diğer bütün kontroller Toolbox panelinden seçilir.
+•	Bu kontroller sürüklenip form üzerine istenilen pozisyona bırakılır.
+Form üzerine bıraktığımız kontrollerden birini tek click ile seçip özellikler (properties) penceresinde nesnenin özelliklerini ve olaylarını düzenleyebiliriz. 
+
+Form üzerinde yazdığımız kodları nasıl görüntüleyebiliriz?
+ 	Solution üzerinde Form1’in üzerinde çift tıklayabilirsiniz.
+
+Form’a eklediğimiz toolboxlara nasıl kod yazabiliriz?
+ 	Kod yazmak istediğimiz toolbox’ın üzerine çift tıklayabilirsiniz.
+              
+
+
+
+ 
+
+Klavye Kısayolları:
+	Ctrl + alt + x  Toolbox kapalı ise açmayı sağlar.
+	Ctrl + alt +  Solution açmayı sağlar.
+	Ctrl + click  Click (1 kez) yaptığınız class’ın ana sayfasına gider.
+	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme  Tool’u kopyalar.
+	Ctrl + s  Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar.
+	Ctrl + shift + s  Tüm dosyaları kaydeder.
+	F5  Programı derler ve başlatır. (Debug => Hata Ayıklama)
+	Alt + G  Butona tıklanma sağlanır.
+FORM
+A.	Form Özellikleri:
+•	MinimizeBox: Simge Durumuna Küçültme  False
+•	MaximizeBox: Ekranı Kaplama  True
+•	MaximumSize: Formun alabileceği max büyüklük.
+•	MinimumSize: Formun alabileceği min küçüklük.
+•	Width: Yatay boyutu.
+•	Height: Yüksekliği.
+•	BackgroundImage: Form arka planına resim ekleme.
+•	Oppacity: Formun şeffaflığını ayarlama.
+•	Show: Birden fazla formu aynı anda ekrana getirmek için kullanılır.
+•	ShowDialog: Sadece çalışmak istediğimiz formu ekrana getirmek için kullanılır. Bu form dışındakilere erişilemez.
+•	FormBorderStyle: Formun kenar stili.
+•	ControlBox: Close, maximize ve minimize düğmelerinin tümünün görünürlüğü.
+
+
+B. Form Metodları:
+	Hide: Visible özelliğini false yaparak gizler.
+	Close: Formu kapatır. Eğer form başlangıç formuysa uygulama sonlanır.
+	Show: Formu gösterir. Hide ile gizlenmişse, visible özelliği true yapılır.
+	ShowDialog: Formu diyalog kutusu olarak gösterir.
+
+
+
+Toolbox Notları:
+ 	Textbox: Metin kutusudur. Kullanıcıdan bilgi almak için kullanılır. 
+a.	Multiline: Texbox’ın size’ını (büyüklüğünü) istediğiniz şekilde ayarlayabilmek için textbox üzerinde sağ üst ok tuşuna basıp multiline özelliğini tikleyebilirsiniz. Kısaca metin kutusuna bilginin çoklu satır olarak girilmesini sağlar.
+b.	ScrollBars: Eğer satır sayısı metin kutusunun boyutundan fazla ise kaydırma çubuklarına gerek duyulabilir. Kaydırma çubukları eklemek için ScrollBars özelliği kullanılır, bu özellik dört değişik değer alır.
+c.	PaswordChar: Metin kutusuna girilen bilginin belirlenen karakter ile gizlenmesini sağlar.
+d.	WordWrap: Satır sonlandığında bir alt satıra geçilmesini sağlar. Multiline false ise alt satırlar zaten olmayacağı için bu özelliğin etkisi olmaz.
+e.	MaxLength: Metin kutusunun alabileceği max karakter sayısını belirtir.
+f.	ReadOnly: Metin kutusunun yazmaya karşı korumalı olduğunu belirtir.
+g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük harfe çevrilmesini sağlar. Upper büyük, lower küçük harf yazar.
+ 	MessageBox: Kullanıcıya diyalog penceresi içerisinde mesaj verme işlemi için MessageBox sınıfının Show metodu kullanılır.
+               
+
+
+ 	Label: Kullanıcıya bilgi vermek amacıyla kullanılan kontroldür.
+
+ 	LinkLabel: İçinde web sayfası adresleri bulunan label kontrolleri oluşturmak için kullanılır.
+
+ 	TabControl: Kontrolleri sekmelerden oluşan paneller içerisinde görüntülemek amacıyla kullanılır. Yani tek bir form üzerinde birden fazla form varmış gibi çalışabilirsiniz. TabControl'e Eklediğimiz her bir TabPage'i istediğiz gibi dizayn ederek birbirleri arasında geçişler yaptırabilirsiniz.
+
+ 	PictureBox: Uygulamamıza görüntülerin eklenmesini ve görüntülerin değişik biçimlerde gösterilmesini sağlar.
+
+ 	Button: Komut düğmeleri olarak kullanılır.
+a.	Enabled ve Visible: Butonun aktif veya görünür olmasını kontrol eder.
+b.	TabStop: False olursa o nesne atlanır.
+c.	FlatStyle: Dört farklı değer alabilir. Bunlar standart, popup, flat, system’dir.
+
+ 	RichTextBox: Zengin metin kutusu anlamına gelmektedir. Normal metin kutusundan farklı olarak alt satıra da yazmaya imkan vermektedir.
+
+ 	MaskedTextBox: Maskeli metin kutusu anlamına gelir. Güçlü tasarımlar konusunda çok sıklıkla kullanılır. Belirli bir formatta alınması gereken veri girişi için kullanılır.
+
+ 	ComboBox: Açılır liste üzerinden sunulan seçenekler arasından seçim yapılmasına olanak sağlayan araçtır.
+
+ 	GroupBox: Bu kontrol tek başına değil, diğer kontrolleri gruplamak için kullanılır. Kontrolleri bu GroupBox ile gruplamanın birçok avantajı vardır.
+GroupBox içine yerleştirilen kontroller, GroupBox’a bağımlıdırlar ve konumları bu çerçeve dışına taşamaz. Özellikle birkaç kontrolü birden görünür ya da görünmez yapmak için hepsinin Visible özelliğini tek tek değiştirmek yerine çerçevenin Visible özelliğini değiştirilerek çerçeve içindeki tüm kontroller aynı anda değiştirilebilir.
+Her bir kontrol tek tek taşınmak yerine çerçeve taşınır. Çerçevelerin buna benzer pek çok faydaları vardır. Ayrıca RadioButton' ların gruplanmasında çerçeve kullanmak kaçınılmaz olabilir.
+
+
+ 	CheckBox: Kontrol Kutusu, kullanıcıya birden çok seçeneği seçme imkanı sağlar. Checked özelliği kontrol kutusunun seçilip seçilmediğini kontrol eder. Seçili ise, true değilse false değerini alır. Listelenen öğeler açılan bir kutuda görüntülenir ve listeden en fazla bir tane öğe seçilebilir.
+a.	Items: Açılır listeye eleman eklenebilir.
+
+ 	ListBox: Kullanıcıya sunulan seçeneklerin bir liste halinde görünmesini sağlar. Liste kutusundan istenen sayıda öğe seçilebilir.
+a.	Text: Liste kutusundaki seçilen elamanın değerini döndürür.
+b.	SelectedIndex: Liste kutusundaki elamanının indis numarasını verir.
+
+ 	CheckedListBox: Liste kutusunun tüm özellik, metot ve olaylarını alır ve listedeki öğelerin işaret kutusu ile gösterilmesini sağlar.
+
+ 	ListView: Listview gelişmiş bir listeleme kontrolüdür. Listbox’ta olduğu gibi içine elemanlar eklenebilir, her elemana bir resim verilebilir ve listedeki elemanlar farklı biçimlerde listelenebilir.
+
+Alfabetik sıralama yapmak için:
+ 
+
+ 	RadioButton: RadioButton kontrolü CheckBox’tan farklı olarak birkaç seçenekten sadece birini seçme imkanı veren bir onay kontrolüdür.
+a.	Appearance: Komut düğmesi görünümüne sahip RadioButton düğmeleri oluşturulabilir.
+b.	Text: İçindeki metin yazılabilir.
+c.	TextAlign: İçindeki metnin yerleşmesi belirlenebilir.
+d.	Image: İçinde resim gösterilebilir.
+e.	CheckAlign: Seçenek düğmesi sola, sağa alınabilir.
+
+ 	Panel: Kullanılacak grupları kontrol etmek, üzerinde daha rahat işlem yapabilmek için bir arada tutan bir toolbox aracıdır.
+
+Panel üzerine istediğimiz toolbox aracını rahatça bırakabilir üzerlerinde işlem yapabiliriz. GroupBox gibi ayarlama yapan bir kontroldür. 
+GroupBox’a göre en büyük artısı kaydırma çubuklarını (AutoScroll) desteklemesidir.
+
+ 	MenuStrip: Menü tasarımı yapmak amacıyla kullanılmaktadır.
+
+ 	OpenFileDialog: Bir dialog ekranı ile dosya seçmemize yaramaktadır. Project menüsü altında bulunan Add Existing Item menüsünü gösterebiliriz. Bu ekran ile bir OpenFileDialog ekranı açılır ve dosya seçim işlemi gerçekleştirilir.
+
+ 	DateTimePicker: Tarih eklemek için kullanılır.
+
+ 	ImageList: Daha sonra denetimler tarafından görüntülenebilen resimleri depolamak için kullanılır. Görüntü listesi, tek ve tutarlı bir resim kataloğu için kod yazmanıza olanak tanır.
+
+ 	WebBrowser: Temelde windowsun internet explorer web tarayıcısına ait özelliklerini kullanmaktadır.
+a.	Navigate: Web browser için adres girilmesine imkan sağlar. Belirtilen adrese yönlendirme yapılır.
+b.	GoBack: Bir önceki sayfaya döner.
+c.	GoForward: Bir sonraki sayfaya döner.
+d.	GoSearch: Arama sayfası işlevi için kullanılır.
+e.	GoHome : Ana sayfaya yönlendirme için kullanılır.
+f.	Refresh: Sayfada yenileme yapar.
+g.	Stop: Sayfanın yüklenmesini durdurur.
+
+ 	Timer: Belirli zaman aralıklarında iş yaptırmak amacıyla milisaniye cinsinden geçen süreyi hesaplamak için kullanılır.
+
+ 	ProgressBar: Uygulamalarda yapılan işlemin ilerleme durumunu belirtmek için kullanılıyor.
+
+ 	DataGridView: Hücrelerden ve satırlardan oluşan tablo gösterimini sağlayan gelişmiş bir kontroldür.
+
+
+
+
+
+
+KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım fayfalı linkler:
+-	http://mehmetmikail.weebly.com/toolbox.html
+-	http://ikucukkoc.baun.edu.tr/lectures/ENM5220/ENM5220%20S2%20Form%20Araclari.pdf
+
+
+ </details>
 <details>
   <summary>:toolbox: Toolbox Kısaltmaları</summary>
   
