@@ -7,6 +7,7 @@ Software techniques and other useful Turkish resources
 - [DRY Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#dry-prensi%CC%87bi%CC%87-dont-repeat-yourself)
 - [KISS Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#kiss-prensi%CC%87bi%CC%87-keep-it-simple-stupid)
 - [YAGNI Prensibi](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#yagni-prensi%CC%87bi%CC%87-you-arent-gonna-need-it)
+- [Windows Form App Notları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/Windows%20Form%20App%20Notları.docx)
 - [Windows Form Toolbox Kısaltmaları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#wi%CC%87ndows-form-toolbox-kisaltmalari)
 
 
@@ -262,6 +263,7 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
  
  <details>
   <summary>💻 Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
+  
   ## [Windows Form App Notları]()
   
     WİNDOWS FORM APPLİCATİON NOTLARI ve KISAYOLLARI
