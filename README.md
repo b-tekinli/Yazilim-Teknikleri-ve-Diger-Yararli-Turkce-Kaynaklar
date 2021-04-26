@@ -290,14 +290,17 @@ Form’a eklediğimiz toolboxlara nasıl kod yazabiliriz?
  
 
 Klavye Kısayolları:
-	Ctrl + alt + x  Toolbox kapalı ise açmayı sağlar.
-	Ctrl + alt +  Solution açmayı sağlar.
-	Ctrl + click  Click (1 kez) yaptığınız class’ın ana sayfasına gider.
-	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme  Tool’u kopyalar.
-	Ctrl + s  Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar.
-	Ctrl + shift + s  Tüm dosyaları kaydeder.
-	F5  Programı derler ve başlatır. (Debug => Hata Ayıklama)
-	Alt + G  Butona tıklanma sağlanır.
+-	Ctrl + alt + x  Toolbox kapalı ise açmayı sağlar.
+-	Ctrl + alt +  Solution açmayı sağlar.
+-	Ctrl + click  Click (1 kez) yaptığınız class’ın ana sayfasına gider.
+-	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme  Tool’u kopyalar.
+-	Ctrl + s  Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar.
+-	Ctrl + shift + s  Tüm dosyaları kaydeder.
+-	F5  Programı derler ve başlatır. (Debug => Hata Ayıklama)
+-	Alt + G  Butona tıklanma sağlanır.
+
+<br />
+
 FORM
 A.	Form Özellikleri:
 •	MinimizeBox: Simge Durumuna Küçültme  False
@@ -315,10 +318,10 @@ A.	Form Özellikleri:
 
 
 B. Form Metodları:
-	Hide: Visible özelliğini false yaparak gizler.
-	Close: Formu kapatır. Eğer form başlangıç formuysa uygulama sonlanır.
-	Show: Formu gösterir. Hide ile gizlenmişse, visible özelliği true yapılır.
-	ShowDialog: Formu diyalog kutusu olarak gösterir.
+-	Hide: Visible özelliğini false yaparak gizler.
+-	Close: Formu kapatır. Eğer form başlangıç formuysa uygulama sonlanır.
+-	Show: Formu gösterir. Hide ile gizlenmişse, visible özelliği true yapılır.
+-	ShowDialog: Formu diyalog kutusu olarak gösterir.
 
 
 
@@ -332,7 +335,6 @@ e.	MaxLength: Metin kutusunun alabileceği max karakter sayısını belirtir.
 f.	ReadOnly: Metin kutusunun yazmaya karşı korumalı olduğunu belirtir.
 g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük harfe çevrilmesini sağlar. Upper büyük, lower küçük harf yazar.
  	MessageBox: Kullanıcıya diyalog penceresi içerisinde mesaj verme işlemi için MessageBox sınıfının Show metodu kullanılır.
-               
 
 
  	Label: Kullanıcıya bilgi vermek amacıyla kullanılan kontroldür.
@@ -413,7 +415,7 @@ g.	Stop: Sayfanın yüklenmesini durdurur.
 
 
 
-KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım fayfalı linkler:
+KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım faydalı linkler:
 -	http://mehmetmikail.weebly.com/toolbox.html
 -	http://ikucukkoc.baun.edu.tr/lectures/ENM5220/ENM5220%20S2%20Form%20Araclari.pdf
 
