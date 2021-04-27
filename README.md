@@ -291,31 +291,31 @@ Form’a eklediğimiz toolboxlara nasıl kod yazabiliriz?
 <br />
 
 Klavye Kısayolları:
--	Ctrl + alt + x  Toolbox kapalı ise açmayı sağlar.
--	Ctrl + alt +  Solution açmayı sağlar.
--	Ctrl + click  Click (1 kez) yaptığınız class’ın ana sayfasına gider.
--	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme  Tool’u kopyalar.
--	Ctrl + s  Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar.
--	Ctrl + shift + s  Tüm dosyaları kaydeder.
--	F5  Programı derler ve başlatır. (Debug => Hata Ayıklama)
--	Alt + G  Butona tıklanma sağlanır.
+-	Ctrl + alt + x  Toolbox kapalı ise açmayı sağlar. <br />
+-	Ctrl + alt +  Solution açmayı sağlar. <br />
+-	Ctrl + click  Click (1 kez) yaptığınız class’ın ana sayfasına gider. <br />
+-	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme  Tool’u kopyalar. <br />
+-	Ctrl + s  Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar. <br />
+-	Ctrl + shift + s  Tüm dosyaları kaydeder. <br />
+-	F5  Programı derler ve başlatır. (Debug => Hata Ayıklama) <br />
+-	Alt + G  Butona tıklanma sağlanır. <br />
 
 <br />
 
 FORM
 A.	Form Özellikleri:
-•	MinimizeBox: Simge Durumuna Küçültme  False
-•	MaximizeBox: Ekranı Kaplama  True
-•	MaximumSize: Formun alabileceği max büyüklük.
-•	MinimumSize: Formun alabileceği min küçüklük.
-•	Width: Yatay boyutu.
-•	Height: Yüksekliği.
-•	BackgroundImage: Form arka planına resim ekleme.
-•	Oppacity: Formun şeffaflığını ayarlama.
-•	Show: Birden fazla formu aynı anda ekrana getirmek için kullanılır.
-•	ShowDialog: Sadece çalışmak istediğimiz formu ekrana getirmek için kullanılır. Bu form dışındakilere erişilemez.
-•	FormBorderStyle: Formun kenar stili.
-•	ControlBox: Close, maximize ve minimize düğmelerinin tümünün görünürlüğü.
+•	MinimizeBox: Simge Durumuna Küçültme  False <br />
+•	MaximizeBox: Ekranı Kaplama  True <br />
+•	MaximumSize: Formun alabileceği max büyüklük. <br />
+•	MinimumSize: Formun alabileceği min küçüklük. <br />
+•	Width: Yatay boyutu. <br />
+•	Height: Yüksekliği. <br />
+•	BackgroundImage: Form arka planına resim ekleme. <br />
+•	Oppacity: Formun şeffaflığını ayarlama. <br />
+•	Show: Birden fazla formu aynı anda ekrana getirmek için kullanılır. <br />
+•	ShowDialog: Sadece çalışmak istediğimiz formu ekrana getirmek için kullanılır. Bu form dışındakilere erişilemez. <br />
+•	FormBorderStyle: Formun kenar stili. <br />
+•	ControlBox: Close, maximize ve minimize düğmelerinin tümünün görünürlüğü. <br />
 
 <br />
 
