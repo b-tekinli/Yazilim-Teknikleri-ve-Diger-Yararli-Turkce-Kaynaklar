@@ -378,8 +378,6 @@ Toolbox Notları: <br />
 
  	ListView: Listview gelişmiş bir listeleme kontrolüdür. Listbox’ta olduğu gibi içine elemanlar eklenebilir, her elemana bir resim verilebilir ve listedeki elemanlar farklı biçimlerde listelenebilir.
 
-Alfabetik sıralama yapmak için:
-
  	RadioButton: RadioButton kontrolü CheckBox’tan farklı olarak birkaç seçenekten sadece birini seçme imkanı veren bir onay kontrolüdür.
   
     a.	Appearance: Komut düğmesi görünümüne sahip RadioButton düğmeleri oluşturulabilir. <br />
