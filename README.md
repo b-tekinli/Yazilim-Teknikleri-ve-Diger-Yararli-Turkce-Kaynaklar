@@ -417,7 +417,7 @@ Alfabetik sıralama yapmak için:
 
  	DataGridView: Hücrelerden ve satırlardan oluşan tablo gösterimini sağlayan gelişmiş bir kontroldür.
 
-<br />
+<br /> <br />
 
 KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım faydalı linkler:
 -	http://mehmetmikail.weebly.com/toolbox.html
