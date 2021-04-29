@@ -291,14 +291,14 @@ Form’a eklediğimiz toolboxlara nasıl kod yazabiliriz? <br />
 <br />
 
 Klavye Kısayolları:
--	Ctrl + alt + x  Toolbox kapalı ise açmayı sağlar. <br />
--	Ctrl + alt +  Solution açmayı sağlar. <br />
--	Ctrl + click  Click (1 kez) yaptığınız class’ın ana sayfasına gider. <br />
--	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme  Tool’u kopyalar. <br />
--	Ctrl + s  Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar. <br />
--	Ctrl + shift + s  Tüm dosyaları kaydeder. <br />
--	F5  Programı derler ve başlatır. (Debug => Hata Ayıklama) <br />
--	Alt + G  Butona tıklanma sağlanır. <br />
+-	Ctrl + alt + x :left_right_arrow: Toolbox kapalı ise açmayı sağlar. <br />
+-	Ctrl + alt + :left_right_arrow: Solution açmayı sağlar. <br />
+-	Ctrl + click :left_right_arrow: Click (1 kez) yaptığınız class’ın ana sayfasına gider. <br />
+-	Ctrl + herhangi bir tool üzerine basılı tutup sürükleme :left_right_arrow: Tool’u kopyalar. <br />
+-	Ctrl + s :left_right_arrow: Hangi dosya üzerinde iseniz onu kaydetmeyi sağlar. <br />
+-	Ctrl + shift + s :left_right_arrow: Tüm dosyaları kaydeder. <br />
+-	F5 :left_right_arrow: Programı derler ve başlatır. (Debug => Hata Ayıklama) <br />
+-	Alt + G :left_right_arrow: Butona tıklanma sağlanır. <br />
 
 <br />
 
@@ -329,16 +329,17 @@ B. Form Metodları:
 <br />
 
 Toolbox Notları: <br />
- 	Textbox: Metin kutusudur. Kullanıcıdan bilgi almak için kullanılır. <br />
-a.	Multiline: Texbox’ın size’ını (büyüklüğünü) istediğiniz şekilde ayarlayabilmek için textbox üzerinde sağ üst ok tuşuna basıp multiline özelliğini tikleyebilirsiniz. Kısaca metin kutusuna bilginin çoklu satır olarak girilmesini sağlar. <br />
-b.	ScrollBars: Eğer satır sayısı metin kutusunun boyutundan fazla ise kaydırma çubuklarına gerek duyulabilir. Kaydırma çubukları eklemek için ScrollBars özelliği kullanılır, bu özellik dört değişik değer alır. <br />
-c.	PaswordChar: Metin kutusuna girilen bilginin belirlenen karakter ile gizlenmesini sağlar. <br />
-d.	WordWrap: Satır sonlandığında bir alt satıra geçilmesini sağlar. Multiline false ise alt satırlar zaten olmayacağı için bu özelliğin etkisi olmaz. <br />
-e.	MaxLength: Metin kutusunun alabileceği max karakter sayısını belirtir. <br />
-f.	ReadOnly: Metin kutusunun yazmaya karşı korumalı olduğunu belirtir. <br />
-g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük harfe çevrilmesini sağlar. Upper büyük, lower küçük harf yazar. <br /> <br />
- 	MessageBox: Kullanıcıya diyalog penceresi içerisinde mesaj verme işlemi için MessageBox sınıfının Show metodu kullanılır. <br />
 
+      Textbox: Metin kutusudur. Kullanıcıdan bilgi almak için kullanılır. <br />
+    a.	Multiline: Texbox’ın size’ını (büyüklüğünü) istediğiniz şekilde ayarlayabilmek için textbox üzerinde sağ üst ok tuşuna basıp multiline özelliğini tikleyebilirsiniz. Kısaca metin kutusuna bilginin çoklu satır olarak girilmesini sağlar. <br />
+    b.	ScrollBars: Eğer satır sayısı metin kutusunun boyutundan fazla ise kaydırma çubuklarına gerek duyulabilir. Kaydırma çubukları eklemek için ScrollBars özelliği kullanılır, bu özellik dört değişik değer alır. <br />
+    c.	PaswordChar: Metin kutusuna girilen bilginin belirlenen karakter ile gizlenmesini sağlar. <br />
+    d.	WordWrap: Satır sonlandığında bir alt satıra geçilmesini sağlar. Multiline false ise alt satırlar zaten olmayacağı için bu özelliğin etkisi olmaz. <br />
+    e.	MaxLength: Metin kutusunun alabileceği max karakter sayısını belirtir. <br />
+    f.	ReadOnly: Metin kutusunun yazmaya karşı korumalı olduğunu belirtir. <br />
+    g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük harfe çevrilmesini sağlar. Upper büyük, lower küçük harf yazar. <br /> <br />
+
+ 	MessageBox: Kullanıcıya diyalog penceresi içerisinde mesaj verme işlemi için MessageBox sınıfının Show metodu kullanılır. <br />
 
  	Label: Kullanıcıya bilgi vermek amacıyla kullanılan kontroldür.
 
@@ -349,9 +350,9 @@ g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük 
  	PictureBox: Uygulamamıza görüntülerin eklenmesini ve görüntülerin değişik biçimlerde gösterilmesini sağlar.
 
  	Button: Komut düğmeleri olarak kullanılır.
-a.	Enabled ve Visible: Butonun aktif veya görünür olmasını kontrol eder. <br />
-b.	TabStop: False olursa o nesne atlanır. <br />
-c.	FlatStyle: Dört farklı değer alabilir. Bunlar standart, popup, flat, system’dir. <br />
+    a.	Enabled ve Visible: Butonun aktif veya görünür olmasını kontrol eder. <br />
+    b.	TabStop: False olursa o nesne atlanır. <br />
+    c.	FlatStyle: Dört farklı değer alabilir. Bunlar standart, popup, flat, system’dir. <br />
 
  	RichTextBox: Zengin metin kutusu anlamına gelmektedir. Normal metin kutusundan farklı olarak alt satıra da yazmaya imkan vermektedir.
 
@@ -361,16 +362,16 @@ c.	FlatStyle: Dört farklı değer alabilir. Bunlar standart, popup, flat, syste
 
  	GroupBox: Bu kontrol tek başına değil, diğer kontrolleri gruplamak için kullanılır. Kontrolleri bu GroupBox ile gruplamanın birçok avantajı vardır.
   
-GroupBox içine yerleştirilen kontroller, GroupBox’a bağımlıdırlar ve konumları bu çerçeve dışına taşamaz. Özellikle birkaç kontrolü birden görünür ya da görünmez yapmak için hepsinin Visible özelliğini tek tek değiştirmek yerine çerçevenin Visible özelliğini değiştirilerek çerçeve içindeki tüm kontroller aynı anda değiştirilebilir.
-Her bir kontrol tek tek taşınmak yerine çerçeve taşınır. Çerçevelerin buna benzer pek çok faydaları vardır. Ayrıca RadioButton' ların gruplanmasında çerçeve kullanmak kaçınılmaz olabilir.
+    GroupBox içine yerleştirilen kontroller, GroupBox’a bağımlıdırlar ve konumları bu çerçeve dışına taşamaz. Özellikle birkaç kontrolü birden görünür ya da görünmez yapmak için hepsinin Visible özelliğini tek tek değiştirmek yerine çerçevenin Visible özelliğini değiştirilerek çerçeve içindeki tüm kontroller aynı anda değiştirilebilir.
+    Her bir kontrol tek tek taşınmak yerine çerçeve taşınır. Çerçevelerin buna benzer pek çok faydaları vardır. Ayrıca RadioButton' ların gruplanmasında çerçeve kullanmak kaçınılmaz olabilir.
 
 
  	CheckBox: Kontrol Kutusu, kullanıcıya birden çok seçeneği seçme imkanı sağlar. Checked özelliği kontrol kutusunun seçilip seçilmediğini kontrol eder. Seçili ise, true değilse false değerini alır. Listelenen öğeler açılan bir kutuda görüntülenir ve listeden en fazla bir tane öğe seçilebilir.
-a.	Items: Açılır listeye eleman eklenebilir. <br />
+    a.	Items: Açılır listeye eleman eklenebilir. <br />
 
  	ListBox: Kullanıcıya sunulan seçeneklerin bir liste halinde görünmesini sağlar. Liste kutusundan istenen sayıda öğe seçilebilir.
-a.	Text: Liste kutusundaki seçilen elamanın değerini döndürür. <br />
-b.	SelectedIndex: Liste kutusundaki elamanının indis numarasını verir. <br />
+    a.	Text: Liste kutusundaki seçilen elamanın değerini döndürür. <br />
+    b.	SelectedIndex: Liste kutusundaki elamanının indis numarasını verir. <br />
 
  	CheckedListBox: Liste kutusunun tüm özellik, metot ve olaylarını alır ve listedeki öğelerin işaret kutusu ile gösterilmesini sağlar.
 
@@ -380,16 +381,16 @@ Alfabetik sıralama yapmak için:
 
  	RadioButton: RadioButton kontrolü CheckBox’tan farklı olarak birkaç seçenekten sadece birini seçme imkanı veren bir onay kontrolüdür.
   
-a.	Appearance: Komut düğmesi görünümüne sahip RadioButton düğmeleri oluşturulabilir. <br />
-b.	Text: İçindeki metin yazılabilir. <br />
-c.	TextAlign: İçindeki metnin yerleşmesi belirlenebilir. <br />
-d.	Image: İçinde resim gösterilebilir. <br />
-e.	CheckAlign: Seçenek düğmesi sola, sağa alınabilir. <br />
+    a.	Appearance: Komut düğmesi görünümüne sahip RadioButton düğmeleri oluşturulabilir. <br />
+    b.	Text: İçindeki metin yazılabilir. <br />
+    c.	TextAlign: İçindeki metnin yerleşmesi belirlenebilir. <br />
+    d.	Image: İçinde resim gösterilebilir. <br />
+    e.	CheckAlign: Seçenek düğmesi sola, sağa alınabilir. <br />
 
  	Panel: Kullanılacak grupları kontrol etmek, üzerinde daha rahat işlem yapabilmek için bir arada tutan bir toolbox aracıdır.
 
-Panel üzerine istediğimiz toolbox aracını rahatça bırakabilir üzerlerinde işlem yapabiliriz. GroupBox gibi ayarlama yapan bir kontroldür. 
-GroupBox’a göre en büyük artısı kaydırma çubuklarını (AutoScroll) desteklemesidir.
+    Panel üzerine istediğimiz toolbox aracını rahatça bırakabilir üzerlerinde işlem yapabiliriz. GroupBox gibi ayarlama yapan bir kontroldür. 
+    GroupBox’a göre en büyük artısı kaydırma çubuklarını (AutoScroll) desteklemesidir.
 
  	MenuStrip: Menü tasarımı yapmak amacıyla kullanılmaktadır.
 
@@ -401,13 +402,13 @@ GroupBox’a göre en büyük artısı kaydırma çubuklarını (AutoScroll) des
 
  	WebBrowser: Temelde windowsun internet explorer web tarayıcısına ait özelliklerini kullanmaktadır.
   
-a.	Navigate: Web browser için adres girilmesine imkan sağlar. Belirtilen adrese yönlendirme yapılır. <br />
-b.	GoBack: Bir önceki sayfaya döner. <br />
-c.	GoForward: Bir sonraki sayfaya döner. <br />
-d.	GoSearch: Arama sayfası işlevi için kullanılır. <br />
-e.	GoHome : Ana sayfaya yönlendirme için kullanılır. <br />
-f.	Refresh: Sayfada yenileme yapar. <br />
-g.	Stop: Sayfanın yüklenmesini durdurur. <br />
+    a.	Navigate: Web browser için adres girilmesine imkan sağlar. Belirtilen adrese yönlendirme yapılır. <br />
+    b.	GoBack: Bir önceki sayfaya döner. <br />
+    c.	GoForward: Bir sonraki sayfaya döner. <br />
+    d.	GoSearch: Arama sayfası işlevi için kullanılır. <br />
+    e.	GoHome : Ana sayfaya yönlendirme için kullanılır. <br />
+    f.	Refresh: Sayfada yenileme yapar. <br />
+    g.	Stop: Sayfanın yüklenmesini durdurur. <br />
 
  	Timer: Belirli zaman aralıklarında iş yaptırmak amacıyla milisaniye cinsinden geçen süreyi hesaplamak için kullanılır.
 
@@ -415,10 +416,7 @@ g.	Stop: Sayfanın yüklenmesini durdurur. <br />
 
  	DataGridView: Hücrelerden ve satırlardan oluşan tablo gösterimini sağlayan gelişmiş bir kontroldür.
 
-
-
-
-
+<br />
 
 KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım faydalı linkler:
 -	http://mehmetmikail.weebly.com/toolbox.html
