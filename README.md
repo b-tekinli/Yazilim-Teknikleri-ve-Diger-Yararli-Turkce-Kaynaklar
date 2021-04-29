@@ -302,20 +302,21 @@ Klavye Kısayolları:
 
 <br />
 
-FORM
-A.	Form Özellikleri:
-•	MinimizeBox: Simge Durumuna Küçültme  False <br />
-•	MaximizeBox: Ekranı Kaplama  True <br />
-•	MaximumSize: Formun alabileceği max büyüklük. <br />
-•	MinimumSize: Formun alabileceği min küçüklük. <br />
-•	Width: Yatay boyutu. <br />
-•	Height: Yüksekliği. <br />
-•	BackgroundImage: Form arka planına resim ekleme. <br />
-•	Oppacity: Formun şeffaflığını ayarlama. <br />
-•	Show: Birden fazla formu aynı anda ekrana getirmek için kullanılır. <br />
-•	ShowDialog: Sadece çalışmak istediğimiz formu ekrana getirmek için kullanılır. Bu form dışındakilere erişilemez. <br />
-•	FormBorderStyle: Formun kenar stili. <br />
-•	ControlBox: Close, maximize ve minimize düğmelerinin tümünün görünürlüğü. <br />
+FORM <br />
+
+A.	Form Özellikleri: <br />
+-	MinimizeBox: Simge Durumuna Küçültme  False <br />
+-	MaximizeBox: Ekranı Kaplama  True <br />
+-	MaximumSize: Formun alabileceği max büyüklük. <br />
+-	MinimumSize: Formun alabileceği min küçüklük. <br />
+-	Width: Yatay boyutu. <br />
+-	Height: Yüksekliği. <br />
+-	BackgroundImage: Form arka planına resim ekleme. <br />
+-	Oppacity: Formun şeffaflığını ayarlama. <br />
+-	Show: Birden fazla formu aynı anda ekrana getirmek için kullanılır. <br />
+-	ShowDialog: Sadece çalışmak istediğimiz formu ekrana getirmek için kullanılır. Bu form dışındakilere erişilemez. <br />
+-	FormBorderStyle: Formun kenar stili. <br />
+-	ControlBox: Close, maximize ve minimize düğmelerinin tümünün görünürlüğü. <br />
 
 <br />
 
@@ -327,7 +328,7 @@ B. Form Metodları:
 
 <br />
 
-Toolbox Notları:
+Toolbox Notları: <br />
  	Textbox: Metin kutusudur. Kullanıcıdan bilgi almak için kullanılır. <br />
 a.	Multiline: Texbox’ın size’ını (büyüklüğünü) istediğiniz şekilde ayarlayabilmek için textbox üzerinde sağ üst ok tuşuna basıp multiline özelliğini tikleyebilirsiniz. Kısaca metin kutusuna bilginin çoklu satır olarak girilmesini sağlar. <br />
 b.	ScrollBars: Eğer satır sayısı metin kutusunun boyutundan fazla ise kaydırma çubuklarına gerek duyulabilir. Kaydırma çubukları eklemek için ScrollBars özelliği kullanılır, bu özellik dört değişik değer alır. <br />
@@ -335,7 +336,7 @@ c.	PaswordChar: Metin kutusuna girilen bilginin belirlenen karakter ile gizlenme
 d.	WordWrap: Satır sonlandığında bir alt satıra geçilmesini sağlar. Multiline false ise alt satırlar zaten olmayacağı için bu özelliğin etkisi olmaz. <br />
 e.	MaxLength: Metin kutusunun alabileceği max karakter sayısını belirtir. <br />
 f.	ReadOnly: Metin kutusunun yazmaya karşı korumalı olduğunu belirtir. <br />
-g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük harfe çevrilmesini sağlar. Upper büyük, lower küçük harf yazar. <br />
+g.	CharacterCasing: Metin kutusuna karakterler girilirken büyük veya küçük harfe çevrilmesini sağlar. Upper büyük, lower küçük harf yazar. <br /> <br />
  	MessageBox: Kullanıcıya diyalog penceresi içerisinde mesaj verme işlemi için MessageBox sınıfının Show metodu kullanılır. <br />
 
 
@@ -359,6 +360,7 @@ c.	FlatStyle: Dört farklı değer alabilir. Bunlar standart, popup, flat, syste
  	ComboBox: Açılır liste üzerinden sunulan seçenekler arasından seçim yapılmasına olanak sağlayan araçtır.
 
  	GroupBox: Bu kontrol tek başına değil, diğer kontrolleri gruplamak için kullanılır. Kontrolleri bu GroupBox ile gruplamanın birçok avantajı vardır.
+  
 GroupBox içine yerleştirilen kontroller, GroupBox’a bağımlıdırlar ve konumları bu çerçeve dışına taşamaz. Özellikle birkaç kontrolü birden görünür ya da görünmez yapmak için hepsinin Visible özelliğini tek tek değiştirmek yerine çerçevenin Visible özelliğini değiştirilerek çerçeve içindeki tüm kontroller aynı anda değiştirilebilir.
 Her bir kontrol tek tek taşınmak yerine çerçeve taşınır. Çerçevelerin buna benzer pek çok faydaları vardır. Ayrıca RadioButton' ların gruplanmasında çerçeve kullanmak kaçınılmaz olabilir.
 
@@ -377,6 +379,7 @@ b.	SelectedIndex: Liste kutusundaki elamanının indis numarasını verir. <br /
 Alfabetik sıralama yapmak için:
 
  	RadioButton: RadioButton kontrolü CheckBox’tan farklı olarak birkaç seçenekten sadece birini seçme imkanı veren bir onay kontrolüdür.
+  
 a.	Appearance: Komut düğmesi görünümüne sahip RadioButton düğmeleri oluşturulabilir. <br />
 b.	Text: İçindeki metin yazılabilir. <br />
 c.	TextAlign: İçindeki metnin yerleşmesi belirlenebilir. <br />
@@ -397,6 +400,7 @@ GroupBox’a göre en büyük artısı kaydırma çubuklarını (AutoScroll) des
  	ImageList: Daha sonra denetimler tarafından görüntülenebilen resimleri depolamak için kullanılır. Görüntü listesi, tek ve tutarlı bir resim kataloğu için kod yazmanıza olanak tanır.
 
  	WebBrowser: Temelde windowsun internet explorer web tarayıcısına ait özelliklerini kullanmaktadır.
+  
 a.	Navigate: Web browser için adres girilmesine imkan sağlar. Belirtilen adrese yönlendirme yapılır. <br />
 b.	GoBack: Bir önceki sayfaya döner. <br />
 c.	GoForward: Bir sonraki sayfaya döner. <br />
