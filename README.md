@@ -268,25 +268,25 @@ Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapı
   
     WİNDOWS FORM APPLİCATİON NOTLARI ve KISAYOLLARI
 
-Windows Form nedir?
-.NetFramework’ün bir parçası olarak dahil edilen grafik ders kitaplığıdır.
-Kodlamanın yanı sıra toolbox yardımı ile görsele yönelik programlama yapmamızı sağlar.
+Windows Form nedir? <br />
+.NetFramework’ün bir parçası olarak dahil edilen grafik ders kitaplığıdır. <br />
+Kodlamanın yanı sıra toolbox yardımı ile görsele yönelik programlama yapmamızı sağlar. <br />
 
 Toolbox nedir?
-•	Windows tabanlı görsel uygulamalar geliştirirken kullanacağımız bir grup kontroldür.
-•	Form kontrolü hariç diğer bütün kontroller Toolbox panelinden seçilir.
-•	Bu kontroller sürüklenip form üzerine istenilen pozisyona bırakılır.
-Form üzerine bıraktığımız kontrollerden birini tek click ile seçip özellikler (properties) penceresinde nesnenin özelliklerini ve olaylarını düzenleyebiliriz. 
+•	Windows tabanlı görsel uygulamalar geliştirirken kullanacağımız bir grup kontroldür. <br />
+•	Form kontrolü hariç diğer bütün kontroller Toolbox panelinden seçilir. <br />
+•	Bu kontroller sürüklenip form üzerine istenilen pozisyona bırakılır. <br />
+Form üzerine bıraktığımız kontrollerden birini tek click ile seçip özellikler (properties) penceresinde nesnenin özelliklerini ve olaylarını düzenleyebiliriz. <br />
 
 <br />
 
-Form üzerinde yazdığımız kodları nasıl görüntüleyebiliriz?
- 	Solution üzerinde Form1’in üzerinde çift tıklayabilirsiniz.
+Form üzerinde yazdığımız kodları nasıl görüntüleyebiliriz? <br />
+ 	Solution üzerinde Form1’in üzerinde çift tıklayabilirsiniz. <br />
 
 <br />
 
-Form’a eklediğimiz toolboxlara nasıl kod yazabiliriz?
- 	Kod yazmak istediğimiz toolbox’ın üzerine çift tıklayabilirsiniz.
+Form’a eklediğimiz toolboxlara nasıl kod yazabiliriz? <br />
+ 	Kod yazmak istediğimiz toolbox’ın üzerine çift tıklayabilirsiniz. <br />
               
 <br />
 
