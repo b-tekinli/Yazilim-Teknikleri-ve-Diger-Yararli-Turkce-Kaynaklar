@@ -328,7 +328,7 @@ B. Form Metodları:
 <br />
 
 Toolbox Notları:
- 	Textbox: Metin kutusudur. Kullanıcıdan bilgi almak için kullanılır. 
+ 	Textbox: Metin kutusudur. Kullanıcıdan bilgi almak için kullanılır. <br />
 a.	Multiline: Texbox’ın size’ını (büyüklüğünü) istediğiniz şekilde ayarlayabilmek için textbox üzerinde sağ üst ok tuşuna basıp multiline özelliğini tikleyebilirsiniz. Kısaca metin kutusuna bilginin çoklu satır olarak girilmesini sağlar. <br />
 b.	ScrollBars: Eğer satır sayısı metin kutusunun boyutundan fazla ise kaydırma çubuklarına gerek duyulabilir. Kaydırma çubukları eklemek için ScrollBars özelliği kullanılır, bu özellik dört değişik değer alır. <br />
 c.	PaswordChar: Metin kutusuna girilen bilginin belirlenen karakter ile gizlenmesini sağlar. <br />
