@@ -222,14 +222,14 @@ Kısacası, SOLID Prensiplerinin I’sı senin bir özelliğin ortak değilse se
 
 -	Alt sınıflardaki yapılacak değişiklikler üst sınıfları etkilememelidir.
 
-o	Peki, bütün bu sorunlardan kurtulmanın yolu nedir ?
-Cevap:  Yüksek seviye ve düşük seviye sınıflar arasında bir soyutlama katmanı oluşturabiliriz.
-Üst Seviye Sınıflar -> Soyutlama Katmanı -> Düşük Seviye Sınıfları
+    o	Peki, bütün bu sorunlardan kurtulmanın yolu nedir ? <br />
+Cevap:  Yüksek seviye ve düşük seviye sınıflar arasında bir soyutlama katmanı oluşturabiliriz. <br />
+Üst Seviye Sınıflar -> Soyutlama Katmanı -> Düşük Seviye Sınıfları <br />
 Örnek: Mobilyaları zemine sabitlenmiş bir ev olduğunu düşünün hiçbir eşyasını yerinden dahi oynatamadığınız bir ev ne kadar mantıklı olabilir ki? Burada tasarımsal bir problemin olduğu aşikâr. Bir örnek daha vermek gerekirse; evinizdeki ampul patladığında koskoca elektrik tesisatını değiştirdiğinizi düşünün. Yani büyük modül (elektrik tesisatı) küçük modüle (ampul) bağlı olmamalı her ikisi de soyut kavrama (lamba –duy ve ampul-) bağlı olmalı. Üstelik burada, ampulün kaç Watt olduğu (detay), lambanın duy kısmını (soyut) ilgilendirir mi?
 
  ![dependency inversion](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/images/dependencyInversion.png)
 
-Yazılım açısından ve daha teknik bakacak olursak ünümüzde aynı altyapıyı kullanan fakat birden fazla arayüze (web, mobile gibi) sahip olan birçok uygulama var. Burada da altyapı üzerinde çalışan ve iş süreçlerini yöneten katman bizim “yüksek seviye” modülümüzdür. Bu açıdan bakıldığında kullanıcı arayüzünün düşük seviye olduğunu söylememiz mümkün.
+Yazılım açısından ve daha teknik bakacak olursak önümüzde aynı altyapıyı kullanan fakat birden fazla arayüze (web, mobile gibi) sahip olan birçok uygulama var. Burada da altyapı üzerinde çalışan ve iş süreçlerini yöneten katman bizim “yüksek seviye” modülümüzdür. Bu açıdan bakıldığında kullanıcı arayüzünün düşük seviye olduğunu söylememiz mümkün.
 
 <br />
 <br />
