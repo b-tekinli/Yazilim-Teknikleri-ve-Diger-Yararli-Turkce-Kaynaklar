@@ -1,7 +1,7 @@
 # Yazılım Teknikleri ve Diğer Yararlı Türkçe Kaynaklar
 Software techniques and other useful Turkish resources 
 
-Yakında eklenecek konular: AOP Nedir?, Design Pattern Nedir?, Bilgisayar ve Ağ Sistemleri Notları.
+<!-- Yakında eklenecek konular: AOP Nedir?, Design Pattern Nedir?, Bilgisayar ve Ağ Sistemleri Notları. -->
 
 - [CRUD Fonksiyonları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
 - [Nesne Tabanlı Programlama](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#oop---nesne-tabanli-programlama---object-ori%CC%87ented-programmi%CC%87ng) <br />
