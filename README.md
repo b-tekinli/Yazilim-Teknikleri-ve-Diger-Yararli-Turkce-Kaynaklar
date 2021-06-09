@@ -14,7 +14,7 @@ Software techniques and other useful Turkish resources
 
 
 <br />
-<br />
+
 
 <details>
   
