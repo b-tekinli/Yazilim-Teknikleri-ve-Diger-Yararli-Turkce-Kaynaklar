@@ -88,7 +88,7 @@ Nesneler her uygulamada tekrar kullanılabilir. Nesne oluşturduğumuzda hafıza
 
  Nesne Yönelimli Programlama Özellikleri
 
-1. Abstraction - Soyutlama :right_arrow: Bir sınıfta davranış ve özelliklerin tanımlanmasına soyutlama diyoruz.
+1. Abstraction - Soyutlama :left_right_arrow: Bir sınıfta davranış ve özelliklerin tanımlanmasına soyutlama diyoruz.
 Örneğin: Araba sınıfında rengi, modeli, tekerlek sayısı, motor gücü, özellikleridir(property).
 Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyonlar) ile tanımlanır.
 
