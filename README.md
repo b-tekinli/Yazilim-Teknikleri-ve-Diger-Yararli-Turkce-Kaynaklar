@@ -31,7 +31,7 @@ Veritabanı Kayıt (Ekleme, Okuma, Güncelleme ve Silme) İşlemleri
 o	Programlamada oluşturma, okuma, güncelleme ve silme, veri depolamada kullanılan dört temel fonksiyondur. Terim ilk kez James Martin'in 1983 tarihli kitabı Managing the Data-base Environment'ta kullanılmıştır.
 
 
--	Create :right_arrow: Yaratma, oluşturma, ekleme
+-	Create :arrow: Yaratma, oluşturma, ekleme
 -	Read :right_arrow: Okuma
 -	Update  :right_arrow: Güncelleme
 -	Delete :right_arrow: Silme
