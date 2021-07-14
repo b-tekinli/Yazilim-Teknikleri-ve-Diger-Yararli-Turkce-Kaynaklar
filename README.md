@@ -94,17 +94,17 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 
 <br />
 
-2. Inheritance - Miras Alma / Kalıtım :right_arrow: Sınıflar birbirinden türeyebilir. Alt sınıf üst sınıfın özelliklerini alabilir.
+2. Inheritance - Miras Alma / Kalıtım :left_right_arrow: Sınıflar birbirinden türeyebilir. Alt sınıf üst sınıfın özelliklerini alabilir.
 Örneğin: Araba ve bisiklet sınıflarında ortak özellik olarak tekerlek sayısı, hızı gibi özelliklerini tekrar yazmak yerine bu özellikleri içeren bir sınıf oluşturup miras alabiliriz. Bir sınıftan birden fazla miras alınıyorsa buna çoklu kalıtım denir.
 
 <br />
 
-3. Polymorphism - Çok Biçimlilik :right_arrow: Alt sınıflar üst sınıfın gösterdiği davranışları göstermek zorunda değildir. Alt sınıfların farklı davranışları göstermesine Çok biçimlilik denilmektedir.
+3. Polymorphism - Çok Biçimlilik :left_right_arrow: Alt sınıflar üst sınıfın gösterdiği davranışları göstermek zorunda değildir. Alt sınıfların farklı davranışları göstermesine Çok biçimlilik denilmektedir.
 Örneğin: Gemi ve araba sınıflarını ele aldığımızda bunların hareket tipleri bulunmaktadır. Gemi su üzerinden giderken araba karada hareket etmektedir. Kısaca farklı nesnelerin (araba ve gemi gibi) aynı olaya (hareket tipine) farklı şekilde cevap vermesidir.
 
 <br />
 
-4. Encapsulation - Kapsülleme :right_arrow: Davranış ve özellikler sınıfta soyutlanarak kapsüllenir. Kapsülleme ile hangi özellik ve davranışın dışarıya sunulup sunulmayacağını belirleriz.
+4. Encapsulation - Kapsülleme :left_right_arrow: Davranış ve özellikler sınıfta soyutlanarak kapsüllenir. Kapsülleme ile hangi özellik ve davranışın dışarıya sunulup sunulmayacağını belirleriz.
 Örneğin: İnsan sınıfında yemek alışkanlığı bizi ilgilendirmiyorsa bunu kapalı (private) yapıp gizleriz. Ancak ad soyad gibi bilgiler bizi ilgilendirdiği için bunlar açık bırakılır. Bu olaya bilgi saklama yani kapsülleme denilmektedir. Bilgi saklama erişim belirteçleri (public, private, protected, internal) ile gerçekleştirilir.
 
 <br />
