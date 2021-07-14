@@ -31,10 +31,10 @@ Veritabanı Kayıt (Ekleme, Okuma, Güncelleme ve Silme) İşlemleri
 o	Programlamada oluşturma, okuma, güncelleme ve silme, veri depolamada kullanılan dört temel fonksiyondur. Terim ilk kez James Martin'in 1983 tarihli kitabı Managing the Data-base Environment'ta kullanılmıştır.
 
 
--	Create :arrow: Yaratma, oluşturma, ekleme
--	Read :right_arrow: Okuma
--	Update  :right_arrow: Güncelleme
--	Delete :right_arrow: Silme
+-	Create :left_right_arrow: Yaratma, oluşturma, ekleme
+-	Read :left_right_arrow: Okuma
+-	Update  :left_right_arrow: Güncelleme
+-	Delete :left_right_arrow: Silme
 
 
 Bir programlama dili veya uygulama CRUD ifadesi ile birlikte anılıyorsa uygulamanın, kodun ya da ürünün temelinde veritabanına yönelik işlemlerinin yer aldığını anlarız. 
@@ -131,19 +131,19 @@ Hızlanması, fren yapması, durması davranışlarıdır ve metotlar (fonksiyon
 
 
 
- 	Single Responsibility :right_arrow: Tek Sorumluluk Prensibi / İlkesi
+ 	Single Responsibility :left_right_arrow: Tek Sorumluluk Prensibi / İlkesi
 
 
- 	Open Closed :right_arrow: Açık Kapalı Prensibi / İlkesi
+ 	Open Closed :left_right_arrow: Açık Kapalı Prensibi / İlkesi
 
 
- 	Liskov Substitution :right_arrow: Liskov’un Yerine Geçme Prensibi / İlkesi
+ 	Liskov Substitution :left_right_arrow: Liskov’un Yerine Geçme Prensibi / İlkesi
 
 
- 	Interface Segregation :right_arrow: Arayüzlerin Ayrışması ve Ayrılması Prensibi
+ 	Interface Segregation :left_right_arrow: Arayüzlerin Ayrışması ve Ayrılması Prensibi
 
 
- 	Dependency Inversion :right_arrow: Bağımlılıkların Tersine Çevrilmesi Prensibi
+ 	Dependency Inversion :left_right_arrow: Bağımlılıkların Tersine Çevrilmesi Prensibi
 
 
 
