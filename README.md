@@ -25,49 +25,49 @@ Software techniques and other useful Turkish resources
   ### LİNUX KOMUTLARI <br />
      - date : tarih ve saati verir.
      - ls : bulunduğumuz dizindeki klasörleri listeler.
-     - Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları listeler.
+     o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları listeler.
      - ls -l : bu komut dosyaları dizin içerisinde listeli bir şekilde gösterir. Dosyalar en son ne zaman kim tarafından değiştirildi, yazma izinleri gibi bilgileri gösterir.
      - Tab tuşu kullanımı:  daha çok, uzun isimli dosyalara gitmek istediğimizde dosyanın sadece baş harfini ya da duruma göre birkaç harfini yazıp tab tuşuna başarınca dosya 	adının tamamını yazar.
      - man : Kullanıcı klavuzu okumak için yapılır.  man ls, man date gibi.
      - history : geçmişte yaptığımız komut satırı geçmişini gösterir. Özellikle bilgisayar kapanırsa falan çok işimize yarar.
 
    ### LİNUX DOSYA KOMUTLARI
-	Linux’ta her şey dosyadır ve dosya sistemi hiyerarşiktir.
-	Dosyalar(-) : yanında da gördüğünüz gibi – ile gösterilir.
-	Dizinler(d) : d ile gösterilir.
-	Bağlantılar(l) : inglizcesi link’tir. l harfi ile gösterilir.
-	/Kök Dizin: sağa yatık taksim / ile gösterilir ve kök dizinden daha üst dizine çıkılmaz çünkü en üstteki dizindir yani hiyerarşinin başladığı yerdir. Tüm dizinleri 		içerir.
-	/bin : temel kullanıcı komutlarıdır yani programlarını içeren klasör.
-	/boot : Bilgisayarın açılışında kullanılan dosyaların yer aldığı statik klasör.
-	/dev : cihaz dosyaları.
-	/etc : sisteme özel ayarların özellikle konfigürasyonların bulunduğu klasördür.
-	/home : kullanıcı ana dizinlerini tutan klasördür.
-	/lib : temel kütüphaneler ve çekirdek modüllerinin tutulduğu klasördür.
-	/media : çıkarılabilir ortam dosyalarını yani flash bellek taktığımızda içindekileri tutan klasördür.
-	/mnt : yerleştirilen, harici olarak takılan hdd gibi dosyaları tutan klasördür.
-	/srv : servis dosyaları.
-	/tmp : geçici dosyalar. herkesin okuma ve yazma izni vardır.
-	/var : çeşitli dosyalar. Örnek: log dosyalarının tutulduğu kalsördür.
-	/root : root kullanıcısı için ana dizindir.
-	cd : istediğimiz dosyalar arasında gezinmemizi sağlar.
-	cd Desktop  Masaüstüne gider.
-	cd ..  bulunduğumuz dosyadan geri çıkmayı yani 1 üst dizine çıkmamızı sağlar.
-	pwd : bulunduğumuz klasörün hangi dizinler altında olduğunu belirtir.
-	mkdir : dosya oluşturmamızı sağlar. Örnek: mkdir denemeDosyasi
-	touch : dosyaları uzantılarıyla oluşturmamızı sağlar. 
-	Birden fazla dosyayı aynı satırda oluşturabiliriz. 
-	Örnek: touch deneme ornek dosya asdfs gibi.
-	Örnek: mkdir deneme ornek dosyaAdi gibi.
-	rm : dosyayı silmemizi sağlar. Örnek: rm odev.txt gibi. Birden fazla dosyayı aralarında boşluk bırarak dosya oluşturmada yaptığımız gibi silebiliriz.
-	-r parametresi : dosya siler ve dizinlerin içindeki dosya ve klasörleri de siler. 
-	Örnek: rm -r hafta 1 gibi. Birden fazla dosyayı aynı anda silebiliriz.
-	cp : dosyaları kopyalamızı sağlar. Örnek: cp ders gibi.
-	Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
-	Örnek: cp kopyalanacakDosya kopyalanacakDosyaDizini/ 
-	cd kopyalanacakDosyaDizini/
-	ls -l
-	Bir üst dizine de kopyalayabiliriz.
-	Örnek: cp kopyalanacakDosya ../
+     - Linux’ta her şey dosyadır ve dosya sistemi hiyerarşiktir.
+     - Dosyalar(-) : yanında da gördüğünüz gibi – ile gösterilir.
+     - Dizinler(d) : d ile gösterilir.
+     - Bağlantılar(l) : inglizcesi link’tir. l harfi ile gösterilir.
+     - /Kök Dizin: sağa yatık taksim / ile gösterilir ve kök dizinden daha üst dizine çıkılmaz çünkü en üstteki dizindir yani hiyerarşinin başladığı yerdir. Tüm dizinleri 		içerir.
+     - /bin : temel kullanıcı komutlarıdır yani programlarını içeren klasör.
+     - /boot : Bilgisayarın açılışında kullanılan dosyaların yer aldığı statik klasör.
+     - /dev : cihaz dosyaları.
+     - /etc : sisteme özel ayarların özellikle konfigürasyonların bulunduğu klasördür.
+     - /home : kullanıcı ana dizinlerini tutan klasördür.
+     - /lib : temel kütüphaneler ve çekirdek modüllerinin tutulduğu klasördür.
+     - /media : çıkarılabilir ortam dosyalarını yani flash bellek taktığımızda içindekileri tutan klasördür.
+     - /mnt : yerleştirilen, harici olarak takılan hdd gibi dosyaları tutan klasördür.
+     - /srv : servis dosyaları.
+     - /tmp : geçici dosyalar. herkesin okuma ve yazma izni vardır.
+     - /var : çeşitli dosyalar. Örnek: log dosyalarının tutulduğu kalsördür.
+     - /root : root kullanıcısı için ana dizindir.
+     - cd : istediğimiz dosyalar arasında gezinmemizi sağlar.
+     - cd Desktop  Masaüstüne gider.
+     - cd ..  bulunduğumuz dosyadan geri çıkmayı yani 1 üst dizine çıkmamızı sağlar.
+     - pwd : bulunduğumuz klasörün hangi dizinler altında olduğunu belirtir.
+     - mkdir : dosya oluşturmamızı sağlar. Örnek: mkdir denemeDosyasi
+     - touch : dosyaları uzantılarıyla oluşturmamızı sağlar. 
+     - Birden fazla dosyayı aynı satırda oluşturabiliriz. 
+     o Örnek: touch deneme ornek dosya asdfs gibi.
+     o Örnek: mkdir deneme ornek dosyaAdi gibi.
+     - rm : dosyayı silmemizi sağlar. Örnek: rm odev.txt gibi. Birden fazla dosyayı aralarında boşluk bırarak dosya oluşturmada yaptığımız gibi silebiliriz.
+     - -r parametresi : dosya siler ve dizinlerin içindeki dosya ve klasörleri de siler. 
+     o Örnek: rm -r hafta 1 gibi. Birden fazla dosyayı aynı anda silebiliriz.
+     - cp : dosyaları kopyalamızı sağlar. Örnek: cp ders gibi.
+     - Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
+     o Örnek: cp kopyalanacakDosya kopyalanacakDosyaDizini/ 
+     - cd kopyalanacakDosyaDizini/
+     - ls -l
+     - Bir üst dizine de kopyalayabiliriz.
+     o Örnek: cp kopyalanacakDosya ../
 
 	Dizin kopyalama işlemi:
 	mkdir dersler
