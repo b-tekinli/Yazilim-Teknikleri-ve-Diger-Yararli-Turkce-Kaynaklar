@@ -23,13 +23,13 @@ Software techniques and other useful Turkish resources
   
 ## [LİNUX ve VİM Komutları]()
   ### LİNUX KOMUTLARI <br />
-	date : tarih ve saati verir.
-	ls : bulunduğumuz dizindeki klasörleri listeler.
-	Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları listeler.
-	ls -l : bu komut dosyaları dizin içerisinde listeli bir şekilde gösterir. Dosyalar en son ne zaman kim tarafından değiştirildi, yazma izinleri gibi bilgileri gösterir.
-	Tab tuşu kullanımı:  daha çok, uzun isimli dosyalara gitmek istediğimizde dosyanın sadece baş harfini ya da duruma göre birkaç harfini yazıp tab tuşuna başarınca dosya 	adının tamamını yazar.
-	man : Kullanıcı klavuzu okumak için yapılır.  man ls, man date gibi.
-	history : geçmişte yaptığımız komut satırı geçmişini gösterir. Özellikle bilgisayar kapanırsa falan çok işimize yarar.
+     - date : tarih ve saati verir.
+     - ls : bulunduğumuz dizindeki klasörleri listeler.
+     - Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları listeler.
+     - ls -l : bu komut dosyaları dizin içerisinde listeli bir şekilde gösterir. Dosyalar en son ne zaman kim tarafından değiştirildi, yazma izinleri gibi bilgileri gösterir.
+     - Tab tuşu kullanımı:  daha çok, uzun isimli dosyalara gitmek istediğimizde dosyanın sadece baş harfini ya da duruma göre birkaç harfini yazıp tab tuşuna başarınca dosya 	adının tamamını yazar.
+     - man : Kullanıcı klavuzu okumak için yapılır.  man ls, man date gibi.
+     - history : geçmişte yaptığımız komut satırı geçmişini gösterir. Özellikle bilgisayar kapanırsa falan çok işimize yarar.
 
    ### LİNUX DOSYA KOMUTLARI
 	Linux’ta her şey dosyadır ve dosya sistemi hiyerarşiktir.
