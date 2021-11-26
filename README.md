@@ -67,16 +67,18 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 - cd kopyalanacakDosyaDizini/
 - ls -l
 - Bir üst dizine de kopyalayabiliriz.
+	<br />
+	
 	Örnek: cp kopyalanacakDosya ../
 	
 	<br />
 	
-	Dizin kopyalama işlemi:
-	mkdir dersler
-	ls -l
-	cp -r matematik/ dersler/
-	cd dersler
-	ls -l
+		Dizin kopyalama işlemi:
+		mkdir dersler
+		ls -l
+		cp -r matematik/ dersler/
+		cd dersler
+		ls -l
 VİM
 ### Vim NEDİR ?
 ==> Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör.
