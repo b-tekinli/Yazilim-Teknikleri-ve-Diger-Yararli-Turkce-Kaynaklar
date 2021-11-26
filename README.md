@@ -3,7 +3,7 @@ Software techniques and other useful Turkish resources
 
 <!-- Yakında eklenecek konular: AOP Nedir?, Design Pattern Nedir?, Bilgisayar ve Ağ Sistemleri Notları. -->
 
-- [LİNUX ve VİM Komutları]() <br />
+- [LİNUX ve VİM Komutları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
 - [CRUD Fonksiyonları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
 - [Nesne Tabanlı Programlama](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#oop---nesne-tabanli-programlama---object-ori%CC%87ented-programmi%CC%87ng) <br />
 - [SOLID Prensipleri](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#solid-prensi%CC%87pleri%CC%87---solid-principle-) <br />
