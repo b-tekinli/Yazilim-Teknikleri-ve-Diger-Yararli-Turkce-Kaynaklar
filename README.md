@@ -81,60 +81,60 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 		ls -l
 VİM
 ### Vim NEDİR ?
-:arrow: Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör. <br />
+:arrow_right: Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör. <br />
 Komut satırından:
-==> vim -O deneme1.c deneme2.c  > Dikey pencerelerde .c uzantılı 2 dosya açar. <br />
-==> vim -o deneme3.c deneme4.c > Yatay pencerelerde .c uzantılı 2 dosya açar. <br />
-==> CTRL+W 	> Yatay ve dikey pencereler arası geçiş. <br />
+:arrow_right: vim -O deneme1.c deneme2.c  > Dikey pencerelerde .c uzantılı 2 dosya açar. <br />
+:arrow_right: vim -o deneme3.c deneme4.c > Yatay pencerelerde .c uzantılı 2 dosya açar. <br />
+:arrow_right: CTRL+W 	> Yatay ve dikey pencereler arası geçiş. <br />
 	Önemli Uyarı:
 	BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA EGER O AN VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA SADECE OKUMA İZNİ VERİR. YAZMA İZNİ İÇİN;
-==> :w!  komutu verilmelidir. <br />
+:arrow_right: :w!  komutu verilmelidir. <br />
 Kullanılabilir komutlar : <br />
-==> vim deneme.txt > deneme.txt adında bir dosya oluşturur. <br />
-==> i  > vim de yazı yazma moduna geçer(insert) <br />
+:arrow_right: vim deneme.txt > deneme.txt adında bir dosya oluşturur. <br />
+:arrow_right: i  > vim de yazı yazma moduna geçer(insert) <br />
 
-==> ESC > ESC tuşu ile komut verme moduna geçilir.Yani komut vermek için her defasında esc tusuna basılmalı. <br />
+:arrow_right: ESC > ESC tuşu ile komut verme moduna geçilir.Yani komut vermek için her defasında esc tusuna basılmalı. <br />
 
-==> :q > Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir. <br />
+:arrow_right: :q > Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir. <br />
 
-==> :wq > Yaz ve çık <br />
-==> h > Metin üzerinde sola gider <br />
-==> l > Sağa gider <br />
-==> k > Yukarı <br />
-==> j > Asağı <br />
-==> Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar. <br />
-==> fm  > “Sadece” bulundugu satırda ileriye doğru ‘m’ araması yapar. <br />
-==> fa > “Sadece” bulundugu satırda geriye doğru ‘a’ araması yapar. <br />
-==> 0 > Satır başına git <br />
-==> $ > Satır sonuna git <br />
-==> 2$ > Bir alttaki satırın sonuna git <br />
-==> 5$ > 4 alttaki satırın sonuna git <br />
-==> 33w > 33 kelime ileri git <br />
-==> 14b > 14 kelime geri git <br />
-==> G > Dosyanın son satırına git <br />
-==> 1G > Dosyanın ilk satırına git <br />
-==> 24G > Dosyanın 24.satırına git <br />
-==> 33w > 33 kelime ileri git <br />
-==> G > Dosyanın son satırına git <br />
-==> 1G > Dosyanın ilk satırına git <br />
-==> :set number > Ekranın soluna satır numaraları ekler! <br />
-==> :set nonumber 	 > Satır numaralarını kaldırır. <br />
-==> /linux > metin içinde linux kelimesini arar <br />
-==> :set hlsearch 	 > Aranan kelimeleri renklendirir. <br />
-==> :set nohlsearch  > hlsearch özelliğini kapatır. <br />
-==> yy > Bulundugu Satırı kopyalar <br />
-==> 3y > 3 satırı kopyalar <br />
-==> . > Kopyalanan satırı yapıştırır <br />
-==> G > Dosya sonuna git <br />
-==> ~ > İmlecin bulundugu yerdeki harfi kücük/büyük harfle değiştir <br />
-==> 4~ > önündeki 4 karakteri kücük/büyük harfe dönüştür. <br />
-==> :split > Ekranı pencerelere böl <br />
-==> V > Visual mod -> Bu modda fare ile hareket ettirilen satırlar renklenir. <br />
-==> > > Bulundugu satırı shift genişliği kadar kaydırır(Visual modda) <br />
-==> :syntax on > Tanınmayan dosya türlerinde metni renklendirir <br />
-==> :set shiftwidth=4 > Tab boşluğunu ayarlar <br />
-==> :mkvimrc dosyaismi > set vb yapılan ayarların saklanmasını sağlar. <br />
-==> :source dosyaismi > kaydedilen ayarları çağırır. <br />
+:arrow_right: :wq > Yaz ve çık <br />
+:arrow_right: h > Metin üzerinde sola gider <br />
+:arrow_right: l > Sağa gider <br />
+:arrow_right: k > Yukarı <br />
+:arrow_right: j > Asağı <br />
+:arrow_right: Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar. <br />
+:arrow_right: fm  > “Sadece” bulundugu satırda ileriye doğru ‘m’ araması yapar. <br />
+:arrow_right: fa > “Sadece” bulundugu satırda geriye doğru ‘a’ araması yapar. <br />
+:arrow_right: 0 > Satır başına git <br />
+:arrow_right: $ > Satır sonuna git <br />
+:arrow_right: 2$ > Bir alttaki satırın sonuna git <br />
+:arrow_right: 5$ > 4 alttaki satırın sonuna git <br />
+:arrow_right: 33w > 33 kelime ileri git <br />
+:arrow_right: 14b > 14 kelime geri git <br />
+:arrow_right: G > Dosyanın son satırına git <br />
+:arrow_right: 1G > Dosyanın ilk satırına git <br />
+:arrow_right: 24G > Dosyanın 24.satırına git <br />
+:arrow_right: 33w > 33 kelime ileri git <br />
+:arrow_right: G > Dosyanın son satırına git <br />
+:arrow_right: 1G > Dosyanın ilk satırına git <br />
+:arrow_right: :set number > Ekranın soluna satır numaraları ekler! <br />
+:arrow_right: :set nonumber 	 > Satır numaralarını kaldırır. <br />
+:arrow_right: /linux > metin içinde linux kelimesini arar <br />
+:arrow_right: :set hlsearch 	 > Aranan kelimeleri renklendirir. <br />
+:arrow_right: :set nohlsearch  > hlsearch özelliğini kapatır. <br />
+:arrow_right: yy > Bulundugu Satırı kopyalar <br />
+:arrow_right: 3y > 3 satırı kopyalar <br />
+:arrow_right: . > Kopyalanan satırı yapıştırır <br />
+:arrow_right: G > Dosya sonuna git <br />
+:arrow_right: ~ > İmlecin bulundugu yerdeki harfi kücük/büyük harfle değiştir <br />
+:arrow_right: 4~ > önündeki 4 karakteri kücük/büyük harfe dönüştür. <br />
+:arrow_right: :split > Ekranı pencerelere böl <br />
+:arrow_right: V > Visual mod -> Bu modda fare ile hareket ettirilen satırlar renklenir. <br />
+:arrow_right: > > Bulundugu satırı shift genişliği kadar kaydırır(Visual modda) <br />
+:arrow_right: :syntax on > Tanınmayan dosya türlerinde metni renklendirir <br />
+:arrow_right: :set shiftwidth=4 > Tab boşluğunu ayarlar <br />
+:arrow_right: :mkvimrc dosyaismi > set vb yapılan ayarların saklanmasını sağlar. <br />
+:arrow_right: :source dosyaismi > kaydedilen ayarları çağırır. <br />
 	
 </details>
 
