@@ -19,7 +19,7 @@ Software techniques and other useful Turkish resources
 
 <details>
   
-  <summary>:hammer_and_wrench: CRUD</summary>
+  <summary>:terminal: LINUX VE VIM</summary>
   
 ## [LİNUX ve VİM Komutları]()
   ### LİNUX KOMUTLARI <br />
@@ -131,7 +131,10 @@ Software techniques and other useful Turkish resources
 	:set shiftwidth=4 > Tab boşluğunu ayarlar
 	:mkvimrc dosyaismi > set vb yapılan ayarların saklanmasını sağlar.
 	:source dosyaismi > kaydedilen ayarları çağırır.
-
+	
+	
+	
+<summary>:hammer_and_wrench: CRUD</summary>
 
 ## [CRUD FONKSİYONLARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/CRUD%20Fonksiyonlar%C4%B1.docx)
 
