@@ -19,7 +19,7 @@ Software techniques and other useful Turkish resources
 
 <details>
   
-  <summary>:terminal: LINUX VE VIM</summary>
+  <summary>:computer: LINUX VE VIM</summary>
   
 ## [LİNUX ve VİM Komutları]()
   ### LİNUX KOMUTLARI <br />
