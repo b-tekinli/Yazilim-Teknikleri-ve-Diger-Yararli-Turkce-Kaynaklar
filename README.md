@@ -380,7 +380,7 @@ Yazılım açısından ve daha teknik bakacak olursak önümüzde aynı altyapı
   </details>
  
  <details>
-  <summary>💻 Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
+  <summary>:label: Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
   
   ## [Windows Form App Notları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/Windows%20Form%20App%20Notları.docx)
   
