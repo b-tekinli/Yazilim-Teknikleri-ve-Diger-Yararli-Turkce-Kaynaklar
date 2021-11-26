@@ -542,7 +542,7 @@ KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım faydalı linkler:
 
  </details>
 <details>
-  <summary>:toolbox: Toolbox Kısaltmaları</summary>
+  <summary>:label: Toolbox Kısaltmaları</summary>
   
   ## [WİNDOWS FORM TOOLBOX KISALTMALARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/Windows%20Form%20Toolbox%20Kısaltmaları.docx)
   
