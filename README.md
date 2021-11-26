@@ -132,7 +132,9 @@ Software techniques and other useful Turkish resources
 	:mkvimrc dosyaismi > set vb yapılan ayarların saklanmasını sağlar.
 	:source dosyaismi > kaydedilen ayarları çağırır.
 	
-	
+</details>
+
+<details>
 	
 <summary>:hammer_and_wrench: CRUD</summary>
 
