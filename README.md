@@ -81,7 +81,7 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 		ls -l
 VİM
 ### Vim NEDİR ?
-:right_arrow: Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör. <br />
+:arrow: Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör. <br />
 Komut satırından:
 ==> vim -O deneme1.c deneme2.c  > Dikey pencerelerde .c uzantılı 2 dosya açar. <br />
 ==> vim -o deneme3.c deneme4.c > Yatay pencerelerde .c uzantılı 2 dosya açar. <br />
