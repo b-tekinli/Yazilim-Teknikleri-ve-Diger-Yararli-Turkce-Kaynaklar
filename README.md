@@ -31,7 +31,7 @@ Software techniques and other useful Turkish resources
 	man : Kullanıcı klavuzu okumak için yapılır.  man ls, man date gibi.
 	history : geçmişte yaptığımız komut satırı geçmişini gösterir. Özellikle bilgisayar kapanırsa falan çok işimize yarar.
 
-	LİNUX DOSYA KOMUTLARI
+   ### LİNUX DOSYA KOMUTLARI
 	Linux’ta her şey dosyadır ve dosya sistemi hiyerarşiktir.
 	Dosyalar(-) : yanında da gördüğünüz gibi – ile gösterilir.
 	Dizinler(d) : d ile gösterilir.
@@ -76,7 +76,7 @@ Software techniques and other useful Turkish resources
 	cd dersler
 	ls -l
 	VİM
-	### Vim NEDİR ?
+   ### Vim NEDİR ?
 	Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör.
 	Komut satırından:
 	vim -O deneme1.c deneme2.c  > Dikey pencerelerde .c uzantılı 2 dosya açar.
