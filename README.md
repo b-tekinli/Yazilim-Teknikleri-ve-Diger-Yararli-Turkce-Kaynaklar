@@ -90,7 +90,7 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 :arrow_right: CTRL+W 	> Yatay ve dikey pencereler arası geçiş. <br /> <br />
 			***Önemli Uyarı:
 			BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA EGER O AN 				VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA SADECE 				OKUMA İZNİ VERİR.***
-<br />	
+<br />	<br />
 *YAZMA İZNİ İÇİN;
 :arrow_right: :w!  komutu verilmelidir.* <br /> <br />
 Kullanılabilir komutlar : <br />
