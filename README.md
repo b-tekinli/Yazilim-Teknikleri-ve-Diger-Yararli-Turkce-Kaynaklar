@@ -87,7 +87,9 @@ Komut satırından:
 :arrow_right: vim -o deneme3.c deneme4.c > Yatay pencerelerde .c uzantılı 2 dosya açar. <br />
 :arrow_right: CTRL+W 	> Yatay ve dikey pencereler arası geçiş. <br />
 	Önemli Uyarı:
-	BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA EGER O AN VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA SADECE OKUMA İZNİ VERİR. YAZMA İZNİ İÇİN;
+	BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA EGER O AN VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA SADECE OKUMA İZNİ VERİR.
+<br />	
+YAZMA İZNİ İÇİN;
 :arrow_right: :w!  komutu verilmelidir. <br />
 Kullanılabilir komutlar : <br />
 :arrow_right: vim deneme.txt > deneme.txt adında bir dosya oluşturur. <br />
