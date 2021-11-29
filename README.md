@@ -104,7 +104,7 @@ Kullanılabilir komutlar : <br />
 :arrow_right: l > Sağa gider <br />
 :arrow_right: k > Yukarı <br />
 :arrow_right: j > Asağı <br />
-:arrow_right: Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar. <br />
+		Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar. <br />
 :arrow_right: fm  > “Sadece” bulundugu satırda ileriye doğru ‘m’ araması yapar. <br />
 :arrow_right: fa > “Sadece” bulundugu satırda geriye doğru ‘a’ araması yapar. <br />
 :arrow_right: 0 > Satır başına git <br />
