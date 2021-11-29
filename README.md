@@ -28,7 +28,7 @@ Software techniques and other useful Turkish resources
 o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları listeler.
 - ls -l : bu komut dosyaları dizin içerisinde listeli bir şekilde gösterir. Dosyalar en son ne zaman kim tarafından değiştirildi, yazma izinleri gibi bilgileri gösterir.
 - Tab tuşu kullanımı:  daha çok, uzun isimli dosyalara gitmek istediğimizde dosyanın sadece baş harfini ya da duruma göre birkaç harfini yazıp tab tuşuna başarınca dosya 	adının tamamını yazar.
-- man : Kullanıcı klavuzu okumak için yapılır.  man ls, man date gibi.
+- man : Kullanıcı klavuzu okumak için yapılır. :arrow_right: man ls, man date gibi.
 - history : geçmişte yaptığımız komut satırı geçmişini gösterir. Özellikle bilgisayar kapanırsa falan çok işimize yarar.
 
  ### LİNUX DOSYA KOMUTLARI
@@ -43,15 +43,16 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 - /etc : sisteme özel ayarların özellikle konfigürasyonların bulunduğu klasördür.
 - /home : kullanıcı ana dizinlerini tutan klasördür.
 - /lib : temel kütüphaneler ve çekirdek modüllerinin tutulduğu klasördür.
-- /media : çıkarılabilir ortam dosyalarını yani flash bellek taktığımızda içindekileri tutan klasördür.
+- /media : çıkarılabilir ortam dosyalarını tutan klasördür. 
+				<br /> **ÖRNEK**: flash bellek taktığımızda içindekileri .
 - /mnt : yerleştirilen, harici olarak takılan hdd gibi dosyaları tutan klasördür.
 - /srv : servis dosyaları.
 - /tmp : geçici dosyalar. herkesin okuma ve yazma izni vardır.
 - /var : çeşitli dosyalar. Örnek: log dosyalarının tutulduğu kalsördür.
 - /root : root kullanıcısı için ana dizindir.
 - cd : istediğimiz dosyalar arasında gezinmemizi sağlar.
-- cd Desktop  Masaüstüne gider.
-- cd ..  bulunduğumuz dosyadan geri çıkmayı yani 1 üst dizine çıkmamızı sağlar.
+- cd Desktop : Masaüstüne gider.
+- cd .. : bulunduğumuz dosyadan geri çıkmayı yani 1 üst dizine çıkmamızı sağlar.
 - pwd : bulunduğumuz klasörün hangi dizinler altında olduğunu belirtir.
 - mkdir : dosya oluşturmamızı sağlar. Örnek: mkdir denemeDosyasi
 - touch : dosyaları uzantılarıyla oluşturmamızı sağlar. 
@@ -60,18 +61,17 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 	Örnek: mkdir deneme ornek dosyaAdi gibi.
 - rm : dosyayı silmemizi sağlar. Örnek: rm odev.txt gibi. Birden fazla dosyayı aralarında boşluk bırarak dosya oluşturmada yaptığımız gibi silebiliriz.
 - -r parametresi : dosya siler ve dizinlerin içindeki dosya ve klasörleri de siler. 
-	Örnek: rm -r hafta 1 gibi. Birden fazla dosyayı aynı anda silebiliriz.
+	**Örnek**: rm -r hafta 1 gibi. Birden fazla dosyayı aynı anda silebiliriz.
 - cp : dosyaları kopyalamızı sağlar. Örnek: cp ders gibi.
 - Kopyalamak istediğimiz dosyayı başka klasörlere de kopyalayabiliriz.
 	Örnek: cp kopyalanacakDosya kopyalanacakDosyaDizini/ 
-- cd kopyalanacakDosyaDizini/
+		cd kopyalanacakDosyaDizini/
 - ls -l
 - Bir üst dizine de kopyalayabiliriz.
 	<br />
 	
 	Örnek: cp kopyalanacakDosya ../
 	
-	<br />
 	
 		Dizin kopyalama işlemi:
 		mkdir dersler
@@ -79,18 +79,20 @@ o Parametre belirtme örnek: ls -a bu komut aynı zamanda gizli dosyaları liste
 		cp -r matematik/ dersler/
 		cd dersler
 		ls -l
-VİM
+        
+# VİM
 ### Vim NEDİR ?
+
 :arrow_right: Vim bir metin editörüdür. Öğrenmesi zahmetli olduğu kadar zevkli olan, öğrenildikten sonra vazgeçemeyeceğiniz bir editör. <br />
-Komut satırından:
-:arrow_right: vim -O deneme1.c deneme2.c  > Dikey pencerelerde .c uzantılı 2 dosya açar. <br />
+			Komut satırından: <br />
+			:arrow_right: vim -O deneme1.c deneme2.c  > Dikey pencerelerde .c uzantılı 2 dosya açar. <br />
 :arrow_right: vim -o deneme3.c deneme4.c > Yatay pencerelerde .c uzantılı 2 dosya açar. <br />
-:arrow_right: CTRL+W 	> Yatay ve dikey pencereler arası geçiş. <br />
-	Önemli Uyarı:
-	BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA EGER O AN VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA SADECE OKUMA İZNİ VERİR.
+:arrow_right: CTRL+W 	> Yatay ve dikey pencereler arası geçiş. <br /> <br />
+			***Önemli Uyarı:
+			BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA EGER O AN 				VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA SADECE 				OKUMA İZNİ VERİR.***
 <br />	
-YAZMA İZNİ İÇİN;
-:arrow_right: :w!  komutu verilmelidir. <br />
+*YAZMA İZNİ İÇİN;
+:arrow_right: :w!  komutu verilmelidir.* <br /> <br />
 Kullanılabilir komutlar : <br />
 :arrow_right: vim deneme.txt > deneme.txt adında bir dosya oluşturur. <br />
 :arrow_right: i  > vim de yazı yazma moduna geçer(insert) <br />
@@ -142,7 +144,7 @@ Kullanılabilir komutlar : <br />
 
 <details>
 	
-<summary>:hammer_and_wrench: CRUD</summary>
+<summary>🛠️ CRUD</summary>
 
 ## [CRUD FONKSİYONLARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/CRUD%20Fonksiyonlar%C4%B1.docx)
 
@@ -173,7 +175,7 @@ Bir programlama dili veya uygulama CRUD ifadesi ile birlikte anılıyorsa uygula
 
 <details>
   
-  <summary>:gear: OOP</summary>
+  <summary>⚙️ OOP</summary>
 
 ## [OOP - NESNE TABANLI PROGRAMLAMA - OBJECT ORİENTED PROGRAMMİNG](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/OOP.docx)
 
@@ -388,7 +390,7 @@ Yazılım açısından ve daha teknik bakacak olursak önümüzde aynı altyapı
   </details>
  
  <details>
-  <summary>:label: Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
+  <summary>🏷️ Toolbox Notları (Nedir, Ne İşe Yarar?) </summary>
   
   ## [Windows Form App Notları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/Windows%20Form%20App%20Notları.docx)
   
@@ -550,7 +552,7 @@ KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım faydalı linkler:
 
  </details>
 <details>
-  <summary>:label: Toolbox Kısaltmaları</summary>
+  <summary>🏷️ Toolbox Kısaltmaları</summary>
   
   ## [WİNDOWS FORM TOOLBOX KISALTMALARI](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar/blob/main/Windows%20Form%20Toolbox%20Kısaltmaları.docx)
   
@@ -609,3 +611,4 @@ KAYNAKLAR        Bu kaynağı hazırlanırken yararlandığım faydalı linkler:
   TreeView :left_right_arrow: tv/tvw <br />
   ValidatorSummary :left_right_arrow: vs <br />
 </details>
+
