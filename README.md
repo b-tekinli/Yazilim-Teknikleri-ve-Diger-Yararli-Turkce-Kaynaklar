@@ -3,7 +3,7 @@ Software techniques and other useful Turkish resources
 
 <!-- Yakında eklenecek konular: AOP Nedir?, Design Pattern Nedir?, Bilgisayar ve Ağ Sistemleri Notları. -->
 
-- [LİNUX ve VİM Komutları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
+- [LİNUX ve VİM Komutları C Fonksiyonları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
 - [CRUD Fonksiyonları](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#crud-fonksi%CC%87yonlari) <br />
 - [Nesne Tabanlı Programlama](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#oop---nesne-tabanli-programlama---object-ori%CC%87ented-programmi%CC%87ng) <br />
 - [SOLID Prensipleri](https://github.com/b-tekinli/Yazilim-Teknikleri-ve-Diger-Yararli-Turkce-Kaynaklar#solid-prensi%CC%87pleri%CC%87---solid-principle-) <br />
@@ -140,7 +140,90 @@ Kullanılabilir komutlar : <br />
 :arrow_right: :mkvimrc dosyaismi > set vb yapılan ayarların saklanmasını sağlar. <br />
 :arrow_right: :source dosyaismi > kaydedilen ayarları çağırır. <br />
 	
+	
+# C Fonksiyonları
+	
+# 42-Piscine C Fonksiyonları
+
+- unsigned int ➡️ Tüm integer alanlar için kullanılan bir özelliktir. Sayısal alanlar için belirlenmiş uzunlukları vardır. Eğer integer alanı unsigned olarak belirlerseniz, ilgili alan negatif değer alamayacaktır.
+
+
+- strcpy() fonksiyonu: 
+<br /> Src parametresi ile gösterilen ve boş bir karakter ('\0') ile sonlandırılmış karakter dizisini, dest parametresi ile gösterilen ve boş bir karakter ('\0') ile sonlandırılmış karakter dizisinin yerine kopyalar.
+
+
+- strncpy() fonksiyonu:
+<br />	char *strncpy(char *dest, const char *src, size_t n); 
+<br /> Eğer n değeri src adresindeki yazının uzunluğuna eşit ya da yazının uzunluğundan küçük ise, kopyalama yapılan yazının sonuna sonlandırıcı karakter eklenmez.
+
+
+- isalpha() fonksiyonu:
+<br /> Fonksiyona geçirilen c parametre değerinin alfabede bulunan bir harf olup olmadığını kontrol eder. Eğer karakter alfabede yer alan bir harf ise sıfır olmayan bir değer, aksi takdirde 0 değerini geri döndürür.
+
+- isnumeric() fonksiyonu:
+<br /> Bir değişkenin içeriğinin bir sayı olarak değerlendirilemeyeceğini anlamak için kullanılır.
+
+- lowercase() fonksiyonu:
+<br /> Bir dizenin küçük harfe dönüştürülmüş bir kopyasını döndürür.
+
+- uppercase() fonksiyonu:
+<br /> Bir dizenin büyük harfe dönüştürülmüş bir kopyasını döndürür.
+
+- printable() fonksiyonu:
+<br /> Yazdırılabilir karakter içeriyorsa return(1), içermiyorsa return(0) döndürür.
+
+- strupcase() fonksiyonu:
+<br /> Bütün harfleri büyük harfe dönüştürür.
+
+- strlowercase() fonksiyonu:
+<br /> Bütün harfleri küçük harfe dönüştürür.
+
+- strcapitalize() fonksiyonu:
+<br /> Tüm kelimelerin ilk harfini büyük harfe dönüştürür.
+
+- strlcpy() fonksiyonu:
+<br /> ('\0') ile sonlandırılan src dizesinden dest'e 1 karakter boyutuna kadar kopyalar ve sonucu ('\0') ile sonlandırılır.
+
+- putstrnonprintable() fonksiyonu:
+<br /> Yazdırılamaz karakter varsa onların önüne ters eğik "\" gelecek şekilde hexadecimal sistemde gösterir. (küçük harf)
+
+- strcmp() fonksiyonu:
+<br /> Str1 parametresi ile gösterilen karakter dizisini str2 parametresi ile gösterilen karakter dizisi ile karşılaştırır. Eğer her iki karakter dizisindeki tüm karakterler aynı ise sıfır değeri, aksi takdirde sıfırdan farklı bir değer geri döndürür.
+
+- strncmp() fonksiyonu:
+<br /> s1 adresindeki yazının ilk n karakteriyle, s2 adresindeki yazının ilk n karakterini birbirleriyle karşılaştırır. Yazıların ilk n karakteri aynı ise fonksiyon 0 değerine geri döner.
+
+- strcat() fonksiyonu
+<br /> Src parametresi ile gösterilen ve boş bir karakter ('\0') ile sonlandırılmış karakter dizisini, dest parametresi ile gösterilen ve boş bir karakter ('\0') ile sonlandırılmış karakter dizisinin sonuna ekleyerek yine boş bir karakter ('\0') ile sonlandırılmış bir karakter dizisi oluşturur.
+
+- strncat() fonksiyonu:
+<br /> char *strncat(char *dest, const char *source, size_t n); Fonksiyon dest adresindeki yazının sonuna source adresindeki yazının ilk n karakterini ekler.
+
+- strstr() fonksiyonu: 
+<br /> *strstr(const char *s1, const char *s2); Fonksiyon başlangıç adresi s1 olan yazı içinde başlangıç adresi s2 olan yazıyı arar. Eğer aranılan yazı bulunursa fonksiyonun geri dönüş değeri bulunan yerin adresidir.
+
+- strlcat() fonksiyonu:
+<br /> src dizesini dest'in sonuna ekler. dest size - strlen(dest) + 1 karakter ekler. dest size 0 olmadığı sürece ('\0') (NULL) döndürecektir.
+
+- strlen() fonksiyonu:
+<br /> str parametresi ile gösterilen karakter dizisini int 1 değere çevirir.
+
+- putstr() fonksiyonu:
+<br /> Dizeyi verilen çıktı birimine yazar.
+
+- putnbr() fonksiyonu:
+<br /> Number'ı verilen çıktı birimine yazar.
+
+- atoi() fonksiyonu:
+<br /> Str parametresi ile gösterilen karakter dizisini int bir değere çevirir. Fonksiyon, önce boşluk karakteri içermeyen ilk karakteri bulana kadar boşluk atlar. Daha sonra, bu karakterden başlayarak, int değer içeriğine benzeyen karakterleri sayısal değerlere çevirir.
+
+- putnbr_base() fonksiyonu:
+<br /> Bir sayıyı terminaldeki bir taban sisteminin içinde gösterir. Ondalık sayı 15'i, minimum uzunluk 10 olacak şekilde ikili tabana dönüştürür. Sonuç, dizeyi 10 karakter uzunluğunda yapmak için başında 6 sıfır bulunan 1111 olan 0000001111 olur.
+	
 </details>
+
+
+
 
 <details>
 	
