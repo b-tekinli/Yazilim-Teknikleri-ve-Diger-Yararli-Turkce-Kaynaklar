@@ -141,7 +141,6 @@ Kullanılabilir komutlar : <br />
 :arrow_right: :source dosyaismi > kaydedilen ayarları çağırır. <br />
 	
 	
-# C Fonksiyonları
 	
 # 42-Piscine C Fonksiyonları
 
