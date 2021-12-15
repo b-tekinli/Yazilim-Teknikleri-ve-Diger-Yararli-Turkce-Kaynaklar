@@ -219,6 +219,15 @@ Kullanılabilir komutlar : <br />
 - putnbr_base() fonksiyonu:
 <br /> Bir sayıyı terminaldeki bir taban sisteminin içinde gösterir. Ondalık sayı 15'i, minimum uzunluk 10 olacak şekilde ikili tabana dönüştürür. Sonuç, dizeyi 10 karakter uzunluğunda yapmak için başında 6 sıfır bulunan 1111 olan 0000001111 olur.
 	
+
+## Rekürsif Fonksiyon Nedir?
+- Kendi kendini çağıran fonksiyonlara özyineli (recursive) fonksiyon denir. Özyineleme en üstten başlayarak tabana kadar iner. Sonra tabanda bulduğu değeri geriye doğru en üste kadar taşır.
+	
+
+## İteratif Fonksiyon Nedir?
+- Fonksiyonun kendisini tekrar etmemesi durumunda döngülü (iterative) fonksiyonlara denir.
+	
+	
 </details>
 
 
